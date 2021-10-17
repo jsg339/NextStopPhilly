@@ -13,26 +13,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-10-09T16:33:53.777-04:00
-  initializedAtString: 2021-10-09T16:33:53.772-04:00
-  localBranches:
-  - name: main
-    tracking: 
+  lastUpdatedAtString: 2021-10-14T09:56:51.295-04:00
+  initializedAtString: 2021-10-14T09:56:51.287-04:00
+  localBranches: []
   remoteBranches: []
-  remotes: []
+  remotes:
+  - name: origin
+    url: https://github.com/jsg339/NextStopPhilly.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
-    keys:
-    - main
-    values:
-    - name: main
-      remote:
-        name: 
-        url: 
-      trackingBranch: 
-  remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
-  configRemotes:
     keys: []
     values: []
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values: []
+    subKeyValues:
+    - Values: []
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/jsg339/NextStopPhilly.git
