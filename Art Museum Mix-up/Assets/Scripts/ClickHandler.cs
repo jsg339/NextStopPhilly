@@ -11,6 +11,8 @@ public class ClickHandler : MonoBehaviour
     private RawImage pic1;
     [SerializeField]
     private RawImage pic2;
+    [SerializeField]
+    GameObject hand;
 
     private void Start()
     {
@@ -39,6 +41,36 @@ public class ClickHandler : MonoBehaviour
         }
 
         if(pic1 != null && pic2 != null)
+        {
+            Texture holder = pic1.texture;
+            pic1.texture = pic2.texture;
+            pic2.texture = holder;
+            pic1 = null;
+            pic2 = null;
+        }
+    }
+    public void OnPinch()
+    {
+        PointerEventData pointer = new PointerEventData(EventSystem.current);
+        pointer.position = hand.transform.position ;
+        List<RaycastResult> raycastResults = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointer, raycastResults);
+
+        for (int index = 0; index < raycastResults.Count; index++)
+        {
+            RaycastResult curRaysastResult = raycastResults[index];
+            if (pic1 == null)
+            {
+                pic1 = curRaysastResult.gameObject.GetComponent<RawImage>();
+            }
+            else if (pic2 == null)
+            {
+                pic2 = curRaysastResult.gameObject.GetComponent<RawImage>();
+            }
+
+        }
+
+        if (pic1 != null && pic2 != null)
         {
             Texture holder = pic1.texture;
             pic1.texture = pic2.texture;

@@ -18,7 +18,10 @@ public class PieceManager : MonoBehaviour
     private Button button;
     [SerializeField]
     private GameObject myCamera;
+    [SerializeField]
+    public GameObject hand;
 
+    bool checkPinch = false;
     private float foundPieces = 0;
 
     // Start is called before the first frame update
@@ -61,6 +64,37 @@ public class PieceManager : MonoBehaviour
                 }
             }
         }
+        if (checkPinch)
+        {
+             Debug.Log("catch");
+            RaycastHit raycastHit;
+            Ray ray = new Ray(Camera.main.transform.position, (hand.transform.position - Camera.main.transform.position) * 1000);
+            Debug.Log(Camera.main.transform.position);
+            Debug.Log(hand.transform.position);
+            Debug.DrawRay(Camera.main.transform.position,( hand.transform.position - Camera.main.transform.position)*1000 ,Color.green, 10, false);
+            if (Physics.Raycast(ray, out raycastHit, 10000f))
+            {
+                Debug.Log(raycastHit.transform.name);
+                if (raycastHit.transform.tag.Equals("Piece"))
+                {
+                    Debug.Log("HIT");
+                    int foundIndex = worldPieces.IndexOf(raycastHit.transform.gameObject);
+
+                    worldPieces[foundIndex].SetActive(false);
+                    canvasPieces[foundIndex].gameObject.SetActive(true);
+                    foundPieces++;
+                }
+            }
+        }
+    }
+    public void PinchTrue()
+    {
+       
+        checkPinch = true;
+    }
+    public void PinchFalse()
+    {
+        checkPinch = false;
     }
 
     public void RestartGame()
