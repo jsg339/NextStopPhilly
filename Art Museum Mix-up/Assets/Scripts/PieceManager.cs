@@ -18,8 +18,13 @@ public class PieceManager : MonoBehaviour
     private Button button;
     [SerializeField]
     private GameObject myCamera;
+
     [SerializeField]
-    public GameObject hand;
+    public GameObject handRight;
+    [SerializeField]
+    public GameObject handLeft;
+
+    private GameObject hand;
 
     bool checkPinch = false;
     private float foundPieces = 0;
@@ -33,6 +38,12 @@ public class PieceManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
+
         if (foundPieces == worldPieces.Count)
         {
             foreach (Image pieces in canvasPieces)
@@ -66,12 +77,11 @@ public class PieceManager : MonoBehaviour
         }
         if (checkPinch)
         {
-             Debug.Log("catch");
             RaycastHit raycastHit;
             Ray ray = new Ray(Camera.main.transform.position, (hand.transform.position - Camera.main.transform.position) * 1000);
             Debug.Log(Camera.main.transform.position);
             Debug.Log(hand.transform.position);
-            Debug.DrawRay(Camera.main.transform.position,( hand.transform.position - Camera.main.transform.position)*1000 ,Color.green, 10, false);
+            Debug.DrawRay(Camera.main.transform.position,(hand.transform.position - Camera.main.transform.position)*1000 ,Color.green, 10, false);
             if (Physics.Raycast(ray, out raycastHit, 10000f))
             {
                 Debug.Log(raycastHit.transform.name);
@@ -87,14 +97,27 @@ public class PieceManager : MonoBehaviour
             }
         }
     }
-    public void PinchTrue()
+    public void PinchTrueLeft()
     {
        
         checkPinch = true;
+        hand = handLeft;
     }
-    public void PinchFalse()
+    public void PinchFalseLeft()
     {
         checkPinch = false;
+        hand = null;
+    }
+    public void PinchTrueRight()
+    {
+
+        checkPinch = true;
+        hand = handRight;
+    }
+    public void PinchFalseRight()
+    {
+        checkPinch = false;
+        hand = null;
     }
 
     public void RestartGame()

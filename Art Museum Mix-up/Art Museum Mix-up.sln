@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapMotion", "LeapMotion.csproj", "{13414DC4-7A91-8425-2A0F-AE14D244A102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{C9F92008-7BDD-F6EC-E90C-A49A3E248B13}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapMotion.LeapCSharp", "LeapMotion.LeapCSharp.csproj", "{795928A8-E1A3-3856-2067-B5504EE98FB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{C9F92008-7BDD-F6EC-E90C-A49A3E248B13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{080F1906-3823-3801-D3DB-0816088997E8}"
 EndProject
@@ -17,22 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13414DC4-7A91-8425-2A0F-AE14D244A102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13414DC4-7A91-8425-2A0F-AE14D244A102}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13414DC4-7A91-8425-2A0F-AE14D244A102}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13414DC4-7A91-8425-2A0F-AE14D244A102}.Release|Any CPU.Build.0 = Release|Any CPU
-		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C9F92008-7BDD-F6EC-E90C-A49A3E248B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C9F92008-7BDD-F6EC-E90C-A49A3E248B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F92008-7BDD-F6EC-E90C-A49A3E248B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F92008-7BDD-F6EC-E90C-A49A3E248B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{795928A8-E1A3-3856-2067-B5504EE98FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1DCD04-5853-ABA8-27F6-B62F00565D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{080F1906-3823-3801-D3DB-0816088997E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{080F1906-3823-3801-D3DB-0816088997E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080F1906-3823-3801-D3DB-0816088997E8}.Release|Any CPU.ActiveCfg = Release|Any CPU

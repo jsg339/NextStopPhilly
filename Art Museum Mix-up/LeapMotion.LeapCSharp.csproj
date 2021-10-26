@@ -53,41 +53,41 @@
     <UnityVersion>2020.3.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Frame.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\CopyFromLeapCExtensions.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Bone.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\FailedDevice.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\IController.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\TransformExtensions.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Events.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\LeapC.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Controller.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\LeapTransform.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\MessageSeverity.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\CircularObjectBuffer.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Logger.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Device.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\MemoryManager.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\CSharpExtensions.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\LeapQuaternion.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\StructMarshal.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\CopyFromOtherExtensions.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\DistortionData.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Matrix.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Arm.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Vector.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Finger.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Config.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Connection.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\IController.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\LeapTransform.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\MemoryManager.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\DeviceList.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\PointMapping.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Hand.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Image.cs" />
-    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\ImageData.cs" />
     <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\FailedDeviceList.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\CopyFromLeapCExtensions.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\CopyFromOtherExtensions.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Arm.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Finger.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Connection.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Hand.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\FailedDevice.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\TransformExtensions.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Matrix.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\PointMapping.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Frame.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Device.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\DistortionData.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\LeapC.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Controller.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Bone.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Config.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\MessageSeverity.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Logger.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\Vector.cs" />
+    <Compile Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\ImageData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\LeapMotion\Core\Plugins\LeapCSharp\LeapMotion.LeapCSharp.asmdef" />
