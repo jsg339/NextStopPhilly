@@ -4,6 +4,9 @@ using UnityEngine;
 public class JsonExamplpe : MonoBehaviour
 {
     public ShoppingListJson ShoppingListJson = new ShoppingListJson();
+    //List<List<string>> BuyList = new List<List<string>>();
+    //BuyList.Add(new List<string>());
+
     void Start()
     {
         
@@ -26,6 +29,17 @@ public class JsonExamplpe : MonoBehaviour
             print("Asset is null");
         }
     }
+
+    //    List<T> GetRandomElements<T>(List<T> inputList, int count)
+   //
+   //     List<T> outputList = new List<T>();
+//for (int i =0; i < count; i++)
+   //    {
+//            int index = Random.Range(0, inputList.Count);
+   //         outputList.Add(inputList[index]);
+       // }
+
+   // }
 
 
 }

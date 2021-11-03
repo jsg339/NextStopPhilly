@@ -2,18 +2,79 @@
     "Items":
     [
         {
-            "Name": "Apple",
-            "Price": 5
+            "Name": "Pancakes",
+            "Price": 6
         },
         
         {
-            "Name": "gum",
-            "Price": 1
+            "Name": "Ham",
+            "Price": 5
         },
         {
-            "Name": "drink",
+            "Name": "Fries",
             "Price": 2
+        },
+        {
+            "Name": "Burger",
+            "Price": 6
+        },
+        
+        {
+            "Name": "Chocolate Cake",
+            "Price": 3
+        },
+        {
+            "Name": "Strawberry Cake",
+            "Price": 3
+        },
+        {
+            "Name": "Donuts",
+            "Price": 2
+        },
+        
+        {
+            "Name": "Pies",
+            "Price": 4
+        },
+        {
+            "Name": "Macarons",
+            "Price": 3
+        },
+        {
+            "Name": "Eggs",
+            "Price": 2
+        },
+        
+        {
+            "Name": "Eclairs",
+            "Price": 5
+        },
+        {
+            "Name": "Cookies",
+            "Price": 2
+        },
+        {
+            "Name": "Smoothie",
+            "Price": 4
+        },
+        
+        {
+            "Name": "Juice",
+            "Price": 3
+        },
+        {
+            "Name": "Milkshake",
+            "Price": 3
+        },
+        {
+            "Name": "Water Ice",
+            "Price": 2
+        },
+        {
+            "Name": "Cheesesteak",
+            "Price": 7
         }
+        
     ]
 
 }
