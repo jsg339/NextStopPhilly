@@ -13,15 +13,12 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField]
     private Image fullPiece;
     [SerializeField]
-    private Text pieceInfo;
-    [SerializeField]
-    private Button button;
-    [SerializeField]
     private GameObject myCamera;
     [SerializeField]
     private List<GameObject> uiBox;
 
     private float foundPieces = 0;
+    private bool isCompleted = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,24 +42,19 @@ public class PuzzleManager : MonoBehaviour
             }
 
             fullPiece.gameObject.SetActive(true);
-            pieceInfo.gameObject.SetActive(true);
-            button.gameObject.SetActive(true);
             foreach(GameObject obj in uiBox)
             {
                 obj.SetActive(false);
             }
+            foundPieces = 0;
+            isCompleted = true;
         }
        
     }
 
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(0);
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("Hit");
         if(collision.transform.tag.Equals("Piece"))
         {
             int foundIndex = worldPieces.IndexOf(collision.transform.gameObject);
@@ -71,5 +63,10 @@ public class PuzzleManager : MonoBehaviour
             canvasPieces[foundIndex].gameObject.SetActive(true);
             foundPieces++;
         }
+    }
+
+    public bool checkCompleted()
+    {
+        return isCompleted;
     }
 }

@@ -11,7 +11,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/ArtDemoV2.unity
     guid: b0b70425523756b49aeced01b8992f48
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LeapArtDemo.unity
     guid: 2d23aa2f163200a4fa93e4d50fce68ca
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3fb86189b39e1384fbba1a9b6cc9b7f3
+  - enabled: 1
+    path: Assets/Scenes/ArtDemoV3.unity
+    guid: e17f477a5bbe6b547a627852f49ebe2f
+  - enabled: 1
+    path: Assets/Scenes/Gallery.unity
+    guid: d0cc9eb7ea4186f4980009c5e2dfd777
   m_configObjects: {}
