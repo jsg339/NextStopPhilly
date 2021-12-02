@@ -5,66 +5,82 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     [SerializeField]
-    float speed;
+    private List<GameObject> gallery;
 
-    private float yaw = 0.0f;
-
-    public bool checkLeft = false;
-    public bool checkRight = false;
-    
-    private float pitch = 0.0f;
-
-
+    private Vector3 diff;
+    private Vector3 start;
+    private int currentPiece;
+    private bool movingLeft, movingRight;
 
     // Start is called before the first frame update
     void Start()
     {
-        this.transform.eulerAngles = new Vector3(0, 0, 0.0f);
+        movingRight = false;
+        movingLeft = false;
+        currentPiece = 0;
     }
 
     // Update is called once per frame
    void Update()
     {
-        /*
-        yaw += speed * Input.GetAxis("Mouse X");
-        pitch -= speed * Input.GetAxis("Mouse Y");
-
-        this.transform.eulerAngles = new Vector3(pitch, yaw, 0.0f); */
-        if (checkLeft)
+        print(currentPiece);
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
-            pitch -= speed;
-            this.transform.eulerAngles = new Vector3(this.transform.rotation.x, pitch, this.transform.rotation.z);
-           
+            diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - Camera.main.transform.position;
         }
-        else if (checkRight)
+
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
-            pitch += speed;
-            this.transform.eulerAngles = new Vector3(this.transform.rotation.x, pitch, this.transform.rotation.z);
-            
+            if (diff.x < 0)
+            {
+                print("Left");
+                diff = new Vector3(0, 0, 0);
+                movingLeft = true;
+                currentPiece -= 1;
+            }
+            else if (diff.x > 0)
+            {
+                print("Right");            
+                diff = new Vector3(0, 0, 0);
+                movingRight = true;
+                currentPiece += 1;
+            }
+        }
+
+        if (movingLeft)
+        {
+            previousPiece();
+        }
+        else if (movingRight)
+        {
+            nextPiece();
+        }    
+        if((!(currentPiece >= gallery.Count) && !(currentPiece < 0)) && transform.position.x == gallery[currentPiece].transform.position.x)
+        {
+            print("There");
+            movingRight = false;
+            movingLeft = false;
         }
     }
 
-    public void MoveLeftTrue()
+    private void nextPiece()
     {
+        if(!(currentPiece >= gallery.Count))
+        {
+            Vector3 target = new Vector3(gallery[currentPiece].transform.position.x, this.transform.position.y, this.transform.position.z);
 
-        checkLeft = true;
-    }
-    public void MoveLeftFalse()
-    {
-
-        checkLeft = false;
-    }
-
-    public void MoveRightTrue()
-    {
-
-        checkRight = true;
-    }
-    public void MoveRightFalse()
-    {
-
-        checkRight = false;
+            Camera.main.transform.position = Vector3.MoveTowards(this.transform.position, target, 2000 * Time.deltaTime);
+        }
     }
 
+    private void previousPiece()
+    {
+        if (! (currentPiece < 0))
+        {
+            Vector3 target = new Vector3(gallery[currentPiece].transform.position.x, this.transform.position.y, this.transform.position.z);
+
+            Camera.main.transform.position = Vector3.MoveTowards(this.transform.position, target, 2000 * Time.deltaTime);
+        }
+    }
 
 }

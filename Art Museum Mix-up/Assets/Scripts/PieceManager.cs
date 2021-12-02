@@ -87,7 +87,6 @@ public class PieceManager : MonoBehaviour
                 Debug.Log(raycastHit.transform.name);
                 if (raycastHit.transform.tag.Equals("Piece"))
                 {
-                    Debug.Log("HIT");
                     int foundIndex = worldPieces.IndexOf(raycastHit.transform.gameObject);
 
                     worldPieces[foundIndex].SetActive(false);

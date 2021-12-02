@@ -14,8 +14,6 @@ public class PuzzleManager : MonoBehaviour
     private Image fullPiece;
     [SerializeField]
     private GameObject myCamera;
-    [SerializeField]
-    private List<GameObject> uiBox;
 
     private float foundPieces = 0;
     private bool isCompleted = false;
@@ -28,40 +26,34 @@ public class PuzzleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Application.Quit();
-        }
-
         if (foundPieces == worldPieces.Count)
         {
+            this.transform.Find("PiecePart1").gameObject.SetActive(false);
+
             foreach (Image pieces in canvasPieces)
             {
                 pieces.gameObject.SetActive(false);
             }
 
             fullPiece.gameObject.SetActive(true);
-            foreach(GameObject obj in uiBox)
-            {
-                obj.SetActive(false);
-            }
+
             foundPieces = 0;
             isCompleted = true;
         }
        
     }
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.transform.tag.Equals("Piece"))
+        if (collision.transform.tag.Equals("Piece"))
         {
-            int foundIndex = worldPieces.IndexOf(collision.transform.gameObject);
-
-            worldPieces[foundIndex].SetActive(false);
-            canvasPieces[foundIndex].gameObject.SetActive(true);
-            foundPieces++;
+            if (worldPieces.Contains(collision.transform.gameObject))
+            {
+                int foundIndex = worldPieces.IndexOf(collision.transform.gameObject);
+                canvasPieces[foundIndex].gameObject.SetActive(true);
+                Destroy(collision.transform.gameObject);
+                foundPieces++;
+            }
         }
     }
 
