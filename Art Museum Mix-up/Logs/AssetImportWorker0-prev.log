@@ -15,11 +15,19 @@ C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
+64821
+Successfully changed project path to: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
+C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.73 ms, found 4 plugins.
+=======
 50958
 Successfully changed project path to: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
 C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 52.53 ms, found 5 plugins.
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,10 +43,33 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
+Registered in 0.002383 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 36.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.039 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+=======
 Registered in 0.002242 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 57.03 ms, found 5 plugins.
@@ -54,18 +85,28 @@ Refreshing native plugins compatible for Editor in 47.50 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.092 seconds
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
+=======
 Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2453 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 106.5 MB.
 System memory in use after: 106.5 MB.
 
+<<<<<<< HEAD
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 1.986700 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.085900 ms MarkObjects: 1.603100 ms  DeleteObjects: 0.102900 ms)
+=======
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2884.
 Total: 2.124100 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.104100 ms MarkObjects: 1.690400 ms  DeleteObjects: 0.113000 ms)
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,6 +121,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  path: Assets/Scenes/ArtDemoV3.unity
+  artifactKey: Guid(e17f477a5bbe6b547a627852f49ebe2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArtDemoV3.unity using Guid(e17f477a5bbe6b547a627852f49ebe2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7345c5b9e0d68105038418c8ebc268') in 0.022628 seconds 
+  Import took 0.026384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027091 seconds.
+  path: Assets/Scenes/ArtDemoV3.unity
+  artifactKey: Guid(e17f477a5bbe6b547a627852f49ebe2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ArtDemoV3.unity using Guid(e17f477a5bbe6b547a627852f49ebe2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7345c5b9e0d68105038418c8ebc268') in 0.003856 seconds 
+  Import took 0.007315 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006668 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.6 MB.
+System memory in use after: 93.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2534.
+Total: 1.677700 ms (FindLiveObjects: 0.141200 ms CreateObjectMapping: 0.058800 ms MarkObjects: 1.405900 ms  DeleteObjects: 0.071000 ms)
+=======
   path: Assets/Scripts/PuzzleManager.cs
   artifactKey: Guid(e939c16b10f3ed04c95e85941bb38924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PuzzleManager.cs using Guid(e939c16b10f3ed04c95e85941bb38924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413707200423b3c4ae50d73f5f0d7ae6') in 0.026205 seconds 
@@ -351,6 +427,7 @@ System memory in use after: 105.9 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2916.
 Total: 2.429300 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.037800 ms  DeleteObjects: 0.108700 ms)
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

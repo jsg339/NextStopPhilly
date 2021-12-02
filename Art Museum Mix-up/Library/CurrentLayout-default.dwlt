@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1638.4
     height: 838.4
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -44,9 +44,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1638
+    height: 838
+  m_MinSize: {x: 875, y: 542}
+=======
     width: 1638.4
     height: 838.4
   m_MinSize: {x: 875, y: 521}
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -117,12 +123,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+    width: 1638
+    height: 788
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 80
+=======
     width: 1638.4
     height: 788.4
   m_MinSize: {x: 677, y: 471}
   m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
   controlID: 37793
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,12 +157,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1210
+    height: 788
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 37
+=======
     width: 1216
     height: 788.4
   m_MinSize: {x: 402, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
   controlID: 37751
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,12 +191,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1210
+    height: 353
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 113
+=======
     width: 1216
     height: 380
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
   controlID: 37799
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,8 +223,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 302
+    height: 353
+=======
     width: 305.6
     height: 380
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -214,10 +252,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 302
+    y: 0
+    width: 908
+    height: 353
+=======
     x: 305.6
     y: 0
     width: 910.4
     height: 380
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
@@ -242,9 +287,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 353
+    width: 1210
+    height: 435
+=======
     y: 380
     width: 1216
     height: 408.40002
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 15}
@@ -268,10 +319,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 1210
+    y: 0
+    width: 428
+    height: 788
+=======
     x: 1216
     y: 0
     width: 422.40002
     height: 788.4
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -295,7 +353,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -325,10 +383,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
+    m_HBaseRangeMin: -453
+    m_HBaseRangeMax: 453
+    m_VBaseRangeMin: -165.9
+    m_VBaseRangeMax: 165.9
+=======
     m_HBaseRangeMin: -655.36005
     m_HBaseRangeMax: 655.36005
     m_VBaseRangeMin: -299.36002
     m_VBaseRangeMax: 299.36002
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -345,17 +410,34 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
+      y: 0
+      width: 906
+      height: 331.8
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 453, y: 165.9}
+=======
       y: 21
       width: 1638.4
       height: 748.4
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 819.2, y: 374.2}
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
+      x: -453
+      y: -165.9
+      width: 906
+      height: 331.8
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 906, y: 331.8}
+=======
       x: -819.2
       y: -374.2
       width: 1638.4
@@ -363,6 +445,7 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 2048, y: 961.75}
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -384,21 +467,32 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
     y: 73.6
+<<<<<<< HEAD
+    width: 301
+    height: 332
+=======
     width: 304.6
     height: 359
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 88faffffa4faffff40fbffff
+=======
       m_SelectedIDs: 964a0000
       m_LastClickedID: 0
       m_ExpandedIDs: 2c3affffd03effff5a40ffff7040ffffd44fffffbc51ffff7253ffffb254ffff4a6fffffa073ffff3474ffffa675ffff587bffff947bffffaa7bffffe07bffff227fffff40d8ffff52d8ffff98d8ffffb6e8ffffd6e8fffff6e8ffff16e9ffff6ae9ffffb6e9ffffb6eaffffdeeaffff0cebffff36f9ffff0afaffff9afaffff3afbffffa44a0000365000004850000092500000b0500000f2500000ba520000125500003055000092570000ac570000ce570000d8570000ea570000f2570000f8620000307f0000387f0000d87f00002a8000005c800000a28100000e82000050820000d8970000f29700001e980000289800003a980000449800004c9800002aa50000faaa000014ab000066ab0000b2b00000beb10000ccb3000044bd00005ebd0000b0bd0000fce5000016e6000042e600004ce6000068e6000070e60000
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -438,14 +532,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 302.4
+    y: 73.6
+    width: 906
+    height: 332
+=======
     x: 305.6
     y: 73.6
     width: 908.4
     height: 359
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
@@ -458,9 +559,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+    m_Target: {x: 3716.8918, y: 461.33124, z: -286.85315}
+    speed: 2
+    m_Value: {x: 3985.4304, y: 503.88956, z: -273.09262}
+=======
     m_Target: {x: 0.49531436, y: 2.6750884, z: -600.02313}
     speed: 2
     m_Value: {x: 0.49531436, y: 2.6750884, z: -600.02313}
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -511,9 +618,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+    m_Target: 3650.3606
+    speed: 2
+    m_Value: 3822.3672
+=======
     m_Target: 168.182
     speed: 2
     m_Value: 168.182
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -554,14 +667,20 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 426.4
+    width: 1209
+    height: 414
+=======
     y: 453.6
     width: 1215
     height: 387.40002
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -576,13 +695,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Art
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Art
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\Dinog\OneDrive\Documents\GitHub\NextStopPhilly\Art
     Museum Mix-up
@@ -590,9 +709,15 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_SelectedIDs: 68470000
+    m_LastClickedID: 18280
+    m_ExpandedIDs: 000000004c4700004e47000050470000524700005447000056470000584700005a4700005c4700005e4700006047000000ca9a3b
+=======
     m_SelectedIDs: 844a0000
     m_LastClickedID: 19076
     m_ExpandedIDs: 00000000664a0000684a00006a4a00006c4a00006e4a0000704a0000724a0000744a0000764a0000784a00007a4a000000ca9a3b
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +745,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: 000000004c4700004e47000050470000524700005447000056470000584700005a4700005c4700005e47000060470000
+=======
     m_ExpandedIDs: 00000000664a0000684a00006a4a00006c4a00006e4a0000704a0000724a0000744a0000764a0000784a00007a4a000000ca9a3b
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -692,14 +821,20 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 426.4
+    width: 1208.6
+    height: 414.2
+=======
     y: 453.6
     width: 1215
     height: 387.40002
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &17
 MonoBehaviour:
@@ -721,10 +856,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
+    x: 1210.4
+    y: 73.6
+    width: 426
+    height: 767
+=======
     x: 1216
     y: 73.6
     width: 421.40002
     height: 767.4
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 

@@ -15,11 +15,19 @@ C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
+64865
+Successfully changed project path to: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
+C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.36 ms, found 4 plugins.
+=======
 53450
 Successfully changed project path to: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
 C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/Art Museum Mix-up
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 49.88 ms, found 5 plugins.
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,10 +43,38 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+=======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
+Registered in 0.002359 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
+=======
 Registered in 0.002551 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 42.67 ms, found 5 plugins.
@@ -59,13 +95,19 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2453 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 106.5 MB.
 System memory in use after: 106.5 MB.
 
+<<<<<<< HEAD
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 3.286700 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.088100 ms MarkObjects: 2.833200 ms  DeleteObjects: 0.168900 ms)
+=======
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2884.
 Total: 1.933800 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.103500 ms MarkObjects: 1.477000 ms  DeleteObjects: 0.136800 ms)
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -80,6 +122,188 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  path: Assets/Scenes/LoseMenu.unity
+  artifactKey: Guid(d68220cc5fa255e4bb75161a583df34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoseMenu.unity using Guid(d68220cc5fa255e4bb75161a583df34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b99824c0d9e614d5a6f55ff6a69804') in 0.020876 seconds 
+  Import took 0.024297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Scenes/Gallery.unity
+  artifactKey: Guid(d0cc9eb7ea4186f4980009c5e2dfd777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gallery.unity using Guid(d0cc9eb7ea4186f4980009c5e2dfd777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cef1dcbb513072b073c9902c5a2a62d') in 0.007749 seconds 
+  Import took 0.011458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Scenes/LoseMenu.unity
+  artifactKey: Guid(d68220cc5fa255e4bb75161a583df34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoseMenu.unity using Guid(d68220cc5fa255e4bb75161a583df34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b99824c0d9e614d5a6f55ff6a69804') in 0.004420 seconds 
+  Import took 0.008746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381184 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(3fb86189b39e1384fbba1a9b6cc9b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(3fb86189b39e1384fbba1a9b6cc9b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663844801fc3ba439449c68ed18b38a0') in 0.006853 seconds 
+  Import took 0.010151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.621371 seconds.
+  path: Assets/UI/abstractforms-frame.png
+  artifactKey: Guid(81e8a3b15b2b50d429ffa751bd734194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/abstractforms-frame.png using Guid(81e8a3b15b2b50d429ffa751bd734194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae362691ac0a6ab59c2af8b3faf146d6') in 0.100761 seconds 
+  Import took 0.104466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/UI/sunflowers-frame.png
+  artifactKey: Guid(62641fb4df4959d458b94970e44fcce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/sunflowers-frame.png using Guid(62641fb4df4959d458b94970e44fcce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b509134677e1429abb48c456680cd18a') in 0.035682 seconds 
+  Import took 0.038846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/UI/start.png
+  artifactKey: Guid(02e4925a6a8ee564f9b9adfacff4c4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/start.png using Guid(02e4925a6a8ee564f9b9adfacff4c4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7649fb9e77e2a7f99203edd36dc9417c') in 0.022273 seconds 
+  Import took 0.025380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/UI/non-objective-frame.png
+  artifactKey: Guid(433fdc62d30bbff48a0aac878513eda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/non-objective-frame.png using Guid(433fdc62d30bbff48a0aac878513eda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005f748588158f324e73dae23f87d645') in 0.032637 seconds 
+  Import took 0.035872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/UI/funeralmarch-frame.png
+  artifactKey: Guid(a9f39727123796b4e959dc014b6bc166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/funeralmarch-frame.png using Guid(a9f39727123796b4e959dc014b6bc166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0801c5ebc3f54c63212efa9f93004ce') in 0.027586 seconds 
+  Import took 0.030658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/UI/close.png
+  artifactKey: Guid(df86315cb6a0ac54a93e395f68709486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/close.png using Guid(df86315cb6a0ac54a93e395f68709486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb30d458815dd5d0748b6592e94a786') in 0.023897 seconds 
+  Import took 0.027160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/UI/frame.png
+  artifactKey: Guid(b91c03a7bf5520a47899d5ada2fa8b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/frame.png using Guid(b91c03a7bf5520a47899d5ada2fa8b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a92b00a8d3bd75812a5d782300cb5be') in 0.016181 seconds 
+  Import took 0.019688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/UI/restart.png
+  artifactKey: Guid(be68dfff0bd9e1248820bc2283a1b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/restart.png using Guid(be68dfff0bd9e1248820bc2283a1b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2124126f7e23e356ac37c8aa59a9ebd0') in 0.022125 seconds 
+  Import took 0.024991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/UI/movement-frame.png
+  artifactKey: Guid(9fc460b972de92e4dacda28844438d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/movement-frame.png using Guid(9fc460b972de92e4dacda28844438d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbc7edfa073914c046143784e6c738e') in 0.018486 seconds 
+  Import took 0.021232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.306468 seconds.
+  path: Assets/UI/Art Museum Assets
+  artifactKey: Guid(f007455e280efe84f9e0868f48152e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets using Guid(f007455e280efe84f9e0868f48152e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9725682149cdad11ff4f481f54ebb4') in 0.006075 seconds 
+  Import took 0.009250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147301 seconds.
+  path: Assets/UI/Art Museum Assets/abstractforms-frame.png
+  artifactKey: Guid(efdd7bc5a176a7e44aeb03d3c1632ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/abstractforms-frame.png using Guid(efdd7bc5a176a7e44aeb03d3c1632ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1c025fe4ef825eb79740ad5ff00277') in 0.024447 seconds 
+  Import took 0.028261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/UI/Art Museum Assets/movement-frame.png
+  artifactKey: Guid(c675af2aa7c09cc4797d38669bb92423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/movement-frame.png using Guid(c675af2aa7c09cc4797d38669bb92423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cd06ceb861366f2398e18aaa399277') in 0.016638 seconds 
+  Import took 0.020302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/UI/Art Museum Assets/frame.png
+  artifactKey: Guid(b2fc836ecf7bf14419817803cea22550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/frame.png using Guid(b2fc836ecf7bf14419817803cea22550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9222187615dbb9c1532fba0393979176') in 0.010625 seconds 
+  Import took 0.013602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/UI/Art Museum Assets/close.png
+  artifactKey: Guid(9bc21e68a3630664384fd7c05fd35799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/close.png using Guid(9bc21e68a3630664384fd7c05fd35799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95c3a69c84697e3ff5532c639d02bed') in 0.014543 seconds 
+  Import took 0.017200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/UI/Art Museum Assets/funeralmarch-frame.png
+  artifactKey: Guid(a0d3f53822b08d647a76e014c3ca4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/funeralmarch-frame.png using Guid(a0d3f53822b08d647a76e014c3ca4fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed420d32c4236b457f12ca33bacf6a18') in 0.018332 seconds 
+  Import took 0.020913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/UI/Art Museum Assets/start.png
+  artifactKey: Guid(da381fc114cde974a956875692a3153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/start.png using Guid(da381fc114cde974a956875692a3153e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec99e903e039863641049e34a6991199') in 0.019174 seconds 
+  Import took 0.022058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/UI/Art Museum Assets/sunflowers-frame.png
+  artifactKey: Guid(9005dfaaf67aae344b655f7850970730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/sunflowers-frame.png using Guid(9005dfaaf67aae344b655f7850970730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e569c75cc25faedda987e0c3a0e2fd3') in 0.019373 seconds 
+  Import took 0.022801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/UI/Art Museum Assets/non-objective-frame.png
+  artifactKey: Guid(44efbb50518e1c74eb34773ac0f9acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/non-objective-frame.png using Guid(44efbb50518e1c74eb34773ac0f9acee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb390a4d44b5a9c0b2b0873039bbdc1') in 0.021465 seconds 
+  Import took 0.024861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/UI/Art Museum Assets/restart.png
+  artifactKey: Guid(db82987f890838448b71338ea5cb52f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Art Museum Assets/restart.png using Guid(db82987f890838448b71338ea5cb52f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7452c448b609a02329b56e50e4c27d11') in 0.010691 seconds 
+  Import took 0.013400 seconds .
+=======
   path: Assets/Scripts/JsonExamplpe.cs
   artifactKey: Guid(11687f0a66c448a45bd487d181699923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/JsonExamplpe.cs using Guid(11687f0a66c448a45bd487d181699923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4504b27851870bffbc8901a0aa05b83') in 0.032276 seconds 
@@ -1585,16 +1809,6 @@ System memory in use after: 106.2 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3046.
 Total: 3.284700 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.794900 ms  DeleteObjects: 0.183000 ms)
+>>>>>>> parent of 7376db23 (Pushing Art Game Changes)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
