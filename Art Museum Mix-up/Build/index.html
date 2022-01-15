@@ -6,7 +6,6 @@
     <title>Unity WebGL Player | Art Museum Mix-up</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-	<script src="hammer.min.js" type="text/javascript"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -67,14 +66,13 @@
         canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
-	  var myGameInstance = null;
+
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-		  myGameInstance = unityInstance;
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
@@ -85,21 +83,5 @@
       };
       document.body.appendChild(script);
     </script>
-	<script>
-		var element = document.getElementById('unity-container');
-		var hammer = new Hammer(element);
-		hammer.on("press", function(event){
-									myGameInstance.SendMessage("DragManager", "down");
-								});
-		hammer.get("pan").set({ direction: Hammer.DIRECTION_ALL });
-	
-		hammer.on("pan", function(event){
-									myGameInstance.SendMessage("DragManager", "drag");
-								});
-								
-		hammer.on("pressup", function(event){	
-									myGameInstance.SendMessage("DragManager", "up");
-								});
-	</script>
   </body>
 </html>

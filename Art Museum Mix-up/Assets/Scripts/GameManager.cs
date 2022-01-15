@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
-        print("hi");
         SceneManager.LoadScene(1);
     }
 }

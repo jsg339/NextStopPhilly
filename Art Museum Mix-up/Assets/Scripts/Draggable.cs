@@ -22,7 +22,7 @@ public class Draggable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if(Input.touchCount > 0)
+        if(Input.touchCount > 0)
         {
             for(int i = 0; i <= Input.touchCount - 1; i++)
             {
@@ -33,25 +33,32 @@ public class Draggable : MonoBehaviour
                 {
                     if (touch.phase == TouchPhase.Began)
                     {
-                        screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
-                        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x, touch.position.y));
+                        down();
+                        /*screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
+
+                        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x, touch.position.y));*/
                     }
                     else if (touch.phase == TouchPhase.Moved)
                     {
+
+                        drag();
+                        /*
                         curScreenPoint = new Vector2(touch.position.x, touch.position.y);
 
                         Vector2 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 
                         this.GetComponent<Rigidbody2D>().MovePosition(curPosition);
+                        */
                     }
                     else if (touch.phase == TouchPhase.Ended)
                     {
-                        this.GetComponent<Rigidbody2D>().velocity = (curScreenPoint - screenPoint) * speed;
+                        up();                     
+                       // this.GetComponent<Rigidbody2D>().velocity = (curScreenPoint - screenPoint) * speed;
                     }
                 }  
             }
-        }*/
+        }
     }
 
     public void down()

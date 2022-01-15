@@ -24,6 +24,7 @@ public class SceneSetup : MonoBehaviour
         paintPieces[0].SetActive(true);
         canvasInScene.Add(canvasObjects[0]);
         canvasObjects[0].transform.position = positions[cardPos].transform.position;
+        canvasObjects[0].transform.rotation = positions[cardPos].transform.rotation;
 
         while (i < 4)
         {
@@ -41,6 +42,7 @@ public class SceneSetup : MonoBehaviour
                 paintPieces[randInt].SetActive(true);
                 canvasInScene.Add(canvasObjects[randInt]);
                 canvasObjects[randInt].transform.position = positions[i].transform.position;
+                canvasObjects[randInt].transform.rotation = positions[i].transform.rotation;
                 i++;
             }
         }
