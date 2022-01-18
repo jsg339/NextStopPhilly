@@ -18,8 +18,6 @@ public class CurtainCreator : MonoBehaviour
     void Start()
     {
         orginalTimer = timer;
-        GameObject newCurtain = Instantiate(curtain);
-        curtain.transform.position = transform.position + new Vector3(0, Random.Range(-height, height));
     }
 
     // Update is called once per frame

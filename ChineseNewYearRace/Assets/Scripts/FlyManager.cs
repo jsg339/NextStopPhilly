@@ -6,6 +6,8 @@ public class FlyManager : MonoBehaviour
 {
     [SerializeField]
     private float velocity;
+    [SerializeField]
+    private KeyCode playerInput;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +18,7 @@ public class FlyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(playerInput))
         {
             this.GetComponent<Rigidbody2D>().velocity = Vector2.up * velocity;
         }
