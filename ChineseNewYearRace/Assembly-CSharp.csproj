@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\FlyManager.cs" />
-    <Compile Include="Assets\Scripts\CurtainManager.cs" />
     <Compile Include="Assets\Scripts\CurtainCreator.cs" />
+    <Compile Include="Assets\Scripts\CurtainManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

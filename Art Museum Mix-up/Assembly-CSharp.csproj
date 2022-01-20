@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ShoppingListJson.cs" />
+    <Compile Include="Assets\Scripts\WindowManager.cs" />
     <Compile Include="Assets\Scripts\JsonExamplpe.cs" />
     <Compile Include="Assets\Scripts\ShoppingListGenerator.cs" />
     <Compile Include="Assets\Scripts\ClickHandler.cs" />
@@ -71,7 +72,6 @@
     <Compile Include="Assets\Scripts\DragManager.cs" />
     <Compile Include="Assets\Scripts\SceneSetup.cs" />
     <Compile Include="Assets\Scripts\Items.cs" />
-    <Compile Include="Assets\Scripts\WindowManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\fonts\fonts\Righteous\OFL.txt" />
