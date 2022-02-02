@@ -60,8 +60,9 @@
     <Compile Include="Assets\Scripts\BellManager.cs" />
     <Compile Include="Assets\Scripts\CurtainCreator.cs" />
     <Compile Include="Assets\Scripts\BodyController.cs" />
-    <Compile Include="Assets\Scripts\CurtainManager.cs" />
     <Compile Include="Assets\Scripts\GameSceneManager.cs" />
+    <Compile Include="Assets\Scripts\CurtainManager.cs" />
+    <Compile Include="Assets\Scripts\BackgroundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
