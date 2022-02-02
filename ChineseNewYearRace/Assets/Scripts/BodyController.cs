@@ -20,12 +20,13 @@ public class BodyController : MonoBehaviour
     {
         Vector3 centerPos = (player1 + player2) / 2f;
         sprite.transform.position = centerPos;
+        sprite.transform.position = new Vector3(sprite.transform.position.x, sprite.transform.position.y, 0);
         Vector3 direction = player2 - player1;
         direction = Vector3.Normalize(direction);
         sprite.transform.right = direction;
         if (_mirrorZ) sprite.transform.right *= -1f;
-        Vector3 scale = new Vector3(1, 1, 1);
-        scale.x = Vector3.Distance(player1, player2);
+        Vector3 scale = sprite.transform.localScale;
+        scale.x = Vector3.Distance(player1, player2) / 2;
         sprite.transform.localScale = scale;
     }
 }

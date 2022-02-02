@@ -26,7 +26,8 @@ public class CurtainCreator : MonoBehaviour
         if(timer <= 0)
         {
             GameObject newCurtain = Instantiate(curtain);
-            curtain.transform.position = transform.position + new Vector3(0, Random.Range(-height, height));
+            newCurtain.transform.position = this.transform.position;
+            newCurtain.transform.localScale = new Vector3(1, Random.Range(1f, height));
 
             Destroy(newCurtain, 30);
 
