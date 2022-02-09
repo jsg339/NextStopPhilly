@@ -5,37 +5,42 @@ using UnityEngine;
 public class BackgroundManager : MonoBehaviour
 {
     [SerializeField]
-    private List<GameObject> bgObjects;
-
+    private GameObject bgArt1;
     [SerializeField]
-    private float timer;
+    private Sprite bgArt2;
+    [SerializeField]
+    private float bgTimer;
 
-    private float orginalTimer;
-
+    private float originalBgTimer;
+    private bool switched = false;
+    private Sprite originalBgArt;
     // Start is called before the first frame update
     void Start()
     {
-        GameObject newCurtain = Instantiate(bgObjects[Random.Range(0, bgObjects.Count)]);
-        newCurtain.transform.position = this.transform.position;
+        originalBgArt = bgArt1.GetComponent<SpriteRenderer>().sprite;
 
-        Destroy(newCurtain, 30);
-
-        orginalTimer = timer;
+        originalBgTimer = bgTimer;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (timer <= 0)
+        if(bgTimer <= 0)
         {
-            GameObject newCurtain = Instantiate(bgObjects[Random.Range(0, bgObjects.Count)]);
-            newCurtain.transform.position = this.transform.position;
-
-            Destroy(newCurtain, 30);
-
-            timer = orginalTimer;
+            if(switched)
+            {
+                bgArt1.GetComponent<SpriteRenderer>().sprite = originalBgArt;
+                switched = false;
+                bgTimer = originalBgTimer;
+            }
+            else
+            {
+                bgArt1.GetComponent<SpriteRenderer>().sprite = bgArt2;
+                switched = true;
+                bgTimer = originalBgTimer;
+            }
+            
         }
-
-        timer -= Time.deltaTime;
+        bgTimer -= Time.deltaTime;
     }
 }

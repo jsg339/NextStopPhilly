@@ -6,6 +6,8 @@ public class CurtainCreator : MonoBehaviour
 {
     [SerializeField]
     private GameObject curtain;
+    [SerializeField]
+    private List<GameObject> buildings;
 
     [SerializeField]
     private float timer;
@@ -26,8 +28,11 @@ public class CurtainCreator : MonoBehaviour
         if(timer <= 0)
         {
             GameObject newCurtain = Instantiate(curtain);
-            newCurtain.transform.position = this.transform.position;
-            newCurtain.transform.localScale = new Vector3(1, Random.Range(1f, height));
+            newCurtain.transform.position = transform.position;
+            GameObject newBuilding = Instantiate(buildings[Random.Range(0, buildings.Count)]);
+            newBuilding.transform.position = newCurtain.transform.GetChild(1).position;
+            Destroy(newCurtain.transform.GetChild(1).gameObject);
+            newBuilding.transform.SetParent(newCurtain.transform);
 
             Destroy(newCurtain, 30);
 

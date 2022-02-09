@@ -1,20 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class BodyController : MonoBehaviour
 {
-    public GameObject startPosition;
-    public GameObject endPosition;
-    public bool mirrorZ = true;
+    [SerializeField]
+    private GameObject startPosition;
+    [SerializeField]
+    private GameObject endPosition;
+    [SerializeField]
+    private bool mirrorZ = true;
+    [SerializeField]
+    private float heightTimer;
+    [SerializeField]
+    private float maxHeight = 1f;
+    private bool reachedMax;
+    private float currentHeight;
+    private float originalTimer;
     void Start()
     {
-        Strech(gameObject, startPosition.transform.position, endPosition.transform.position, mirrorZ);
+        reachedMax = false;
+        originalTimer = heightTimer;
+        currentHeight = this.GetComponent<SpriteShapeController>().spline.GetPosition(1).y;
+        //Strech(gameObject, startPosition.transform.position, endPosition.transform.position, mirrorZ);
     }
 
     private void Update()
     {
-        Strech(gameObject, startPosition.transform.position, endPosition.transform.position, mirrorZ);
+        Spline spline = this.GetComponent<SpriteShapeController>().spline;
+
+        spline.SetPosition(0, endPosition.transform.localPosition);
+        spline.SetPosition(2, startPosition.transform.localPosition);
+
+        if(heightTimer <= 0)
+        {
+            Vector3 newVector = new Vector3(spline.GetPosition(1).x, currentHeight, spline.GetPosition(1).z);
+            spline.SetPosition(1, newVector);
+            if (reachedMax)
+                currentHeight -= 0.1f;
+            else
+                currentHeight += 0.1f;
+            heightTimer = originalTimer;
+        }
+        if(currentHeight >= maxHeight)
+        {
+            reachedMax = true;
+        }
+        else if(currentHeight <= -maxHeight)
+        {
+            reachedMax = false;
+        }
+
+        heightTimer -= Time.deltaTime;
+        //Strech(gameObject, startPosition.transform.position, endPosition.transform.position, mirrorZ);
     }
     public void Strech(GameObject sprite, Vector3 player1, Vector3 player2, bool _mirrorZ)
     {
