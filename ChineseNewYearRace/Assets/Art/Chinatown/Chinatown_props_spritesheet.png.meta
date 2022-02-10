@@ -1,0 +1,4248 @@
+fileFormatVersion: 2
+guid: 2d1343563af58f14fa8d4d9e595c249e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6542474651896157466
+    second: Chinatown_props_spritesheet_0
+  - first:
+      213: 4846696166701345881
+    second: Chinatown_props_spritesheet_1
+  - first:
+      213: -7596088315349776370
+    second: Chinatown_props_spritesheet_2
+  - first:
+      213: -8043439207365157981
+    second: Chinatown_props_spritesheet_3
+  - first:
+      213: 4273638553211379312
+    second: Chinatown_props_spritesheet_4
+  - first:
+      213: 4117033467307569966
+    second: Chinatown_props_spritesheet_5
+  - first:
+      213: 8766311337295182165
+    second: Chinatown_props_spritesheet_6
+  - first:
+      213: -645066897245447739
+    second: Chinatown_props_spritesheet_7
+  - first:
+      213: 6909472171246416890
+    second: Chinatown_props_spritesheet_8
+  - first:
+      213: 8131574288769574964
+    second: Chinatown_props_spritesheet_9
+  - first:
+      213: -2482035287322666814
+    second: Chinatown_props_spritesheet_10
+  - first:
+      213: -6755526612767981797
+    second: Chinatown_props_spritesheet_11
+  - first:
+      213: -1997378108809830788
+    second: Chinatown_props_spritesheet_12
+  - first:
+      213: 5323668711968796700
+    second: Chinatown_props_spritesheet_13
+  - first:
+      213: 3238901707097704333
+    second: Chinatown_props_spritesheet_14
+  - first:
+      213: 811170191216376272
+    second: Chinatown_props_spritesheet_15
+  - first:
+      213: -5857630348744538277
+    second: Chinatown_props_spritesheet_16
+  - first:
+      213: 8101696688576477364
+    second: Chinatown_props_spritesheet_17
+  - first:
+      213: 5345223967841302836
+    second: Chinatown_props_spritesheet_18
+  - first:
+      213: -1545186006715403275
+    second: Chinatown_props_spritesheet_19
+  - first:
+      213: -470796106731076825
+    second: Chinatown_props_spritesheet_20
+  - first:
+      213: 6223967650489674377
+    second: Chinatown_props_spritesheet_21
+  - first:
+      213: 8124423184640133429
+    second: Chinatown_props_spritesheet_22
+  - first:
+      213: -3207057502013525161
+    second: Chinatown_props_spritesheet_23
+  - first:
+      213: -5670106651112438143
+    second: Chinatown_props_spritesheet_24
+  - first:
+      213: -5459362348247828564
+    second: Chinatown_props_spritesheet_25
+  - first:
+      213: -3040491878464989874
+    second: Chinatown_props_spritesheet_26
+  - first:
+      213: 1643176053544548997
+    second: Chinatown_props_spritesheet_27
+  - first:
+      213: -4108485117998718725
+    second: Chinatown_props_spritesheet_28
+  - first:
+      213: -9185696741548497195
+    second: Chinatown_props_spritesheet_29
+  - first:
+      213: -8910265239287637549
+    second: Chinatown_props_spritesheet_30
+  - first:
+      213: 7099587862462712142
+    second: Chinatown_props_spritesheet_31
+  - first:
+      213: -3997790683215061145
+    second: Chinatown_props_spritesheet_32
+  - first:
+      213: 2092655213503689285
+    second: Chinatown_props_spritesheet_33
+  - first:
+      213: 7739771300597382563
+    second: Chinatown_props_spritesheet_34
+  - first:
+      213: 6087195077356270151
+    second: Chinatown_props_spritesheet_35
+  - first:
+      213: -4183892526868803736
+    second: Chinatown_props_spritesheet_36
+  - first:
+      213: -8157763265677937609
+    second: Chinatown_props_spritesheet_37
+  - first:
+      213: -4637372968080559440
+    second: Chinatown_props_spritesheet_38
+  - first:
+      213: -4232622065940147450
+    second: Chinatown_props_spritesheet_39
+  - first:
+      213: -6108100715991079292
+    second: Chinatown_props_spritesheet_40
+  - first:
+      213: 8221293010979290703
+    second: Chinatown_props_spritesheet_41
+  - first:
+      213: -4409897654018237681
+    second: Chinatown_props_spritesheet_42
+  - first:
+      213: 3980019976560404772
+    second: Chinatown_props_spritesheet_43
+  - first:
+      213: 2954307267174154331
+    second: Chinatown_props_spritesheet_44
+  - first:
+      213: 2604986239101176009
+    second: Chinatown_props_spritesheet_45
+  - first:
+      213: 2724450693333047396
+    second: Chinatown_props_spritesheet_46
+  - first:
+      213: -2672410583128620896
+    second: Chinatown_props_spritesheet_47
+  - first:
+      213: -1078272991469018305
+    second: Chinatown_props_spritesheet_48
+  - first:
+      213: 9177619171238285783
+    second: Chinatown_props_spritesheet_49
+  - first:
+      213: -5679430835394263140
+    second: Chinatown_props_spritesheet_50
+  - first:
+      213: -7117416696417320101
+    second: Chinatown_props_spritesheet_51
+  - first:
+      213: 8058734246354368033
+    second: Chinatown_props_spritesheet_52
+  - first:
+      213: 3981145456383353895
+    second: Chinatown_props_spritesheet_53
+  - first:
+      213: 6306030206515618566
+    second: Chinatown_props_spritesheet_54
+  - first:
+      213: -8554817189271679779
+    second: Chinatown_props_spritesheet_55
+  - first:
+      213: -1390805173633441292
+    second: Chinatown_props_spritesheet_56
+  - first:
+      213: -392973691192691092
+    second: Chinatown_props_spritesheet_57
+  - first:
+      213: -67071559838905753
+    second: Chinatown_props_spritesheet_58
+  - first:
+      213: -1004362464946014379
+    second: Chinatown_props_spritesheet_59
+  - first:
+      213: -2575506277957336619
+    second: Chinatown_props_spritesheet_60
+  - first:
+      213: -727302772568418880
+    second: Chinatown_props_spritesheet_61
+  - first:
+      213: -7579231719035246847
+    second: Chinatown_props_spritesheet_62
+  - first:
+      213: 2189773772605796907
+    second: Chinatown_props_spritesheet_63
+  - first:
+      213: -8746254571423355793
+    second: Chinatown_props_spritesheet_64
+  - first:
+      213: 4298238983834460651
+    second: Chinatown_props_spritesheet_65
+  - first:
+      213: -4981049563604377956
+    second: Chinatown_props_spritesheet_66
+  - first:
+      213: 8708416132821853476
+    second: Chinatown_props_spritesheet_67
+  - first:
+      213: -8988890115919197815
+    second: Chinatown_props_spritesheet_68
+  - first:
+      213: 864498178193122801
+    second: Chinatown_props_spritesheet_69
+  - first:
+      213: -2823954336656585419
+    second: Chinatown_props_spritesheet_70
+  - first:
+      213: 4365181888508520506
+    second: Chinatown_props_spritesheet_71
+  - first:
+      213: 134741462179435815
+    second: Chinatown_props_spritesheet_72
+  - first:
+      213: 6461699048664421435
+    second: Chinatown_props_spritesheet_73
+  - first:
+      213: -3795362038216033670
+    second: Chinatown_props_spritesheet_74
+  - first:
+      213: 7538940625340284667
+    second: Chinatown_props_spritesheet_75
+  - first:
+      213: -629020154912497802
+    second: Chinatown_props_spritesheet_76
+  - first:
+      213: 4495791576806652067
+    second: Chinatown_props_spritesheet_77
+  - first:
+      213: 1207558265577187211
+    second: Chinatown_props_spritesheet_78
+  - first:
+      213: -4265220927194071688
+    second: Chinatown_props_spritesheet_79
+  - first:
+      213: 7116105704002410383
+    second: Chinatown_props_spritesheet_80
+  - first:
+      213: -2550500879662842724
+    second: Chinatown_props_spritesheet_81
+  - first:
+      213: -9093999962192160614
+    second: Chinatown_props_spritesheet_82
+  - first:
+      213: -637606078384935615
+    second: Chinatown_props_spritesheet_83
+  - first:
+      213: 5009491973492656242
+    second: Chinatown_props_spritesheet_84
+  - first:
+      213: -8820740824564680559
+    second: Chinatown_props_spritesheet_85
+  - first:
+      213: 1136434622231995856
+    second: Chinatown_props_spritesheet_86
+  - first:
+      213: 8978611796252034397
+    second: Chinatown_props_spritesheet_87
+  - first:
+      213: 6518166455989826888
+    second: Chinatown_props_spritesheet_88
+  - first:
+      213: 1591838397317393955
+    second: Chinatown_props_spritesheet_89
+  - first:
+      213: 974429775605958533
+    second: Chinatown_props_spritesheet_90
+  - first:
+      213: -8022508316308113881
+    second: Chinatown_props_spritesheet_91
+  - first:
+      213: -964296127070904470
+    second: Chinatown_props_spritesheet_92
+  - first:
+      213: 7662119211421153441
+    second: Chinatown_props_spritesheet_93
+  - first:
+      213: 7233215499231984767
+    second: Chinatown_props_spritesheet_94
+  - first:
+      213: -2576450348128943801
+    second: Chinatown_props_spritesheet_95
+  - first:
+      213: 3826764601195533060
+    second: Chinatown_props_spritesheet_96
+  - first:
+      213: -4530115798173951286
+    second: Chinatown_props_spritesheet_97
+  - first:
+      213: 2153942300475496758
+    second: Chinatown_props_spritesheet_98
+  - first:
+      213: -5707174100093740190
+    second: Chinatown_props_spritesheet_99
+  - first:
+      213: -1361434150695669246
+    second: Chinatown_props_spritesheet_100
+  - first:
+      213: -2594465203741723166
+    second: Chinatown_props_spritesheet_101
+  - first:
+      213: 3901231457370739371
+    second: Chinatown_props_spritesheet_102
+  - first:
+      213: 3531981333671000373
+    second: Chinatown_props_spritesheet_103
+  - first:
+      213: -3916239976282030828
+    second: Chinatown_props_spritesheet_104
+  - first:
+      213: 8657231499053199891
+    second: Chinatown_props_spritesheet_105
+  - first:
+      213: 3346214176113562437
+    second: Chinatown_props_spritesheet_106
+  - first:
+      213: 203965032327586189
+    second: Chinatown_props_spritesheet_107
+  - first:
+      213: -6413872866480794823
+    second: Chinatown_props_spritesheet_108
+  - first:
+      213: -386276543889217980
+    second: Chinatown_props_spritesheet_109
+  - first:
+      213: -8628934510979363819
+    second: Chinatown_props_spritesheet_110
+  - first:
+      213: -4081396381746415701
+    second: Chinatown_props_spritesheet_111
+  - first:
+      213: -2373203690749752054
+    second: Chinatown_props_spritesheet_112
+  - first:
+      213: 8442099004453281091
+    second: Chinatown_props_spritesheet_113
+  - first:
+      213: 5852125560009260697
+    second: Chinatown_props_spritesheet_114
+  - first:
+      213: 4595081182717429064
+    second: Chinatown_props_spritesheet_115
+  - first:
+      213: -6501770459901155811
+    second: Chinatown_props_spritesheet_116
+  - first:
+      213: 7781554414969517198
+    second: Chinatown_props_spritesheet_117
+  - first:
+      213: 4101160602103343497
+    second: Chinatown_props_spritesheet_118
+  - first:
+      213: 3535046361960275004
+    second: Chinatown_props_spritesheet_119
+  - first:
+      213: -5451083800457214696
+    second: Chinatown_props_spritesheet_120
+  - first:
+      213: 8769880658131325125
+    second: Chinatown_props_spritesheet_121
+  - first:
+      213: -1909891489497588616
+    second: Chinatown_props_spritesheet_122
+  - first:
+      213: 574843043699550232
+    second: Chinatown_props_spritesheet_123
+  - first:
+      213: -4576408529200484271
+    second: Chinatown_props_spritesheet_124
+  - first:
+      213: 6333682852161675897
+    second: Chinatown_props_spritesheet_125
+  - first:
+      213: 958995994754624605
+    second: Chinatown_props_spritesheet_126
+  - first:
+      213: -8406245678519721591
+    second: Chinatown_props_spritesheet_127
+  - first:
+      213: -2886726750030881598
+    second: Chinatown_props_spritesheet_128
+  - first:
+      213: 2490316048854212630
+    second: Chinatown_props_spritesheet_129
+  - first:
+      213: 3708056619738050797
+    second: Chinatown_props_spritesheet_130
+  - first:
+      213: -3575665149941343461
+    second: Chinatown_props_spritesheet_131
+  - first:
+      213: 5146302388385766053
+    second: Chinatown_props_spritesheet_132
+  - first:
+      213: 7742134658684078309
+    second: Chinatown_props_spritesheet_133
+  - first:
+      213: -7065218606331719308
+    second: Chinatown_props_spritesheet_134
+  - first:
+      213: -1088989869794739544
+    second: Chinatown_props_spritesheet_135
+  - first:
+      213: -5108049531890750967
+    second: Chinatown_props_spritesheet_136
+  - first:
+      213: 8854508943312990280
+    second: Chinatown_props_spritesheet_137
+  - first:
+      213: 2731553104505784549
+    second: Chinatown_props_spritesheet_138
+  - first:
+      213: 4520475018096559794
+    second: Chinatown_props_spritesheet_139
+  - first:
+      213: 4808385286538886993
+    second: Chinatown_props_spritesheet_140
+  - first:
+      213: -7729386723547895021
+    second: Chinatown_props_spritesheet_141
+  - first:
+      213: 7264355382498502364
+    second: Chinatown_props_spritesheet_142
+  - first:
+      213: -8426339185274899653
+    second: Chinatown_props_spritesheet_143
+  - first:
+      213: -3714527648816440767
+    second: Chinatown_props_spritesheet_144
+  - first:
+      213: 9106179163240249583
+    second: Chinatown_props_spritesheet_145
+  - first:
+      213: 6535882810451113743
+    second: Chinatown_props_spritesheet_146
+  - first:
+      213: 976810500927350835
+    second: Chinatown_props_spritesheet_147
+  - first:
+      213: -6987258081204658347
+    second: Chinatown_props_spritesheet_148
+  - first:
+      213: -7550078788387538734
+    second: Chinatown_props_spritesheet_149
+  - first:
+      213: 3747095066207254590
+    second: Chinatown_props_spritesheet_150
+  - first:
+      213: 2345528522089808078
+    second: Chinatown_props_spritesheet_151
+  - first:
+      213: 5836453769007472845
+    second: Chinatown_props_spritesheet_152
+  - first:
+      213: 1003515882863753422
+    second: Chinatown_props_spritesheet_153
+  - first:
+      213: 8375955251655263038
+    second: Chinatown_props_spritesheet_154
+  - first:
+      213: 3661393535517840532
+    second: Chinatown_props_spritesheet_155
+  - first:
+      213: -740651028776945555
+    second: Chinatown_props_spritesheet_156
+  - first:
+      213: -5518339934331636900
+    second: Chinatown_props_spritesheet_157
+  - first:
+      213: -59563130341076745
+    second: Chinatown_props_spritesheet_158
+  - first:
+      213: 1749236902181111409
+    second: Chinatown_props_spritesheet_159
+  - first:
+      213: -2249993879135771610
+    second: Chinatown_props_spritesheet_160
+  - first:
+      213: -2623742176052213694
+    second: Chinatown_props_spritesheet_161
+  - first:
+      213: -6675517095497393696
+    second: Chinatown_props_spritesheet_162
+  - first:
+      213: 9176568324224397583
+    second: Chinatown_props_spritesheet_163
+  - first:
+      213: 720825436222874000
+    second: Chinatown_props_spritesheet_164
+  - first:
+      213: 9063968903797399610
+    second: Chinatown_props_spritesheet_165
+  - first:
+      213: -1602431192156215601
+    second: Chinatown_props_spritesheet_166
+  - first:
+      213: 2238310528549685320
+    second: Chinatown_props_spritesheet_167
+  - first:
+      213: -5273627559991342675
+    second: Chinatown_props_spritesheet_168
+  - first:
+      213: -6726570390573743108
+    second: Chinatown_props_spritesheet_169
+  - first:
+      213: 365427817418359014
+    second: Chinatown_props_spritesheet_170
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2993
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6bb5b7f57435a0800000000000000
+      internalID: -6542474651896157466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2980
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c2b761c7ce24340800000000000000
+      internalID: 4846696166701345881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2990
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08c4194ce5459690800000000000000
+      internalID: -7596088315349776370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2991
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abdc8828a6ff5090800000000000000
+      internalID: -8043439207365157981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 2980
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e14961f930f4b30800000000000000
+      internalID: 4273638553211379312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2976
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2333432024a22930800000000000000
+      internalID: 4117033467307569966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2973
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55975f127b138a970800000000000000
+      internalID: 8766311337295182165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2973
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9525d13134c07f0800000000000000
+      internalID: -645066897245447739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 2963
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3f690f45063ef50800000000000000
+      internalID: 6909472171246416890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2960
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386fc29bb729d070800000000000000
+      internalID: 8131574288769574964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2964
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8d52b7e0a0e8dd0800000000000000
+      internalID: -2482035287322666814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2957
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f3447865c8f32a0800000000000000
+      internalID: -6755526612767981797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2955
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e9f3e4133e744e0800000000000000
+      internalID: -1997378108809830788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2948
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10f2cecc7871e940800000000000000
+      internalID: 5323668711968796700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 2948
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8707f131f3e2fc20800000000000000
+      internalID: 3238901707097704333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 2954
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d976dbbdfad14b00800000000000000
+      internalID: 811170191216376272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2982
+        y: 2958
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57c88d9b3485bea0800000000000000
+      internalID: -5857630348744538277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2944
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b83f80b6320f6070800000000000000
+      internalID: 8101696688576477364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2948
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439b518e0ec0e2a40800000000000000
+      internalID: 5345223967841302836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2939
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3f2dd73856e8ae0800000000000000
+      internalID: -1545186006715403275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 2942
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72348a07f656779f0800000000000000
+      internalID: -470796106731076825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 2935
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aa5f42a99ff5650800000000000000
+      internalID: 6223967650489674377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2935
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5394c6567dfbfb070800000000000000
+      internalID: 8124423184640133429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 2939
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7537b32913e3e73d0800000000000000
+      internalID: -3207057502013525161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 2944
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1860dd5da0cbf41b0800000000000000
+      internalID: -5670106651112438143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2926
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7bb848ed27c34b0800000000000000
+      internalID: -5459362348247828564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2932
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4552a9eeb00ec5d0800000000000000
+      internalID: -3040491878464989874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2923
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a73fe2aebbdc610800000000000000
+      internalID: 1643176053544548997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 2929
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf025b88d8abbf6c0800000000000000
+      internalID: -4108485117998718725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 2922
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e9814b79d58080800000000000000
+      internalID: -9185696741548497195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 2917
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9dfb539f0685480800000000000000
+      internalID: -8910265239287637549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 2917
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49c3c1bb8dc68260800000000000000
+      internalID: 7099587862462712142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 2922
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f99980e8ef488c0800000000000000
+      internalID: -3997790683215061145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 2926
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542b14e44da9a0d10800000000000000
+      internalID: 2092655213503689285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2818
+        y: 2930
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adbed6adf0396b60800000000000000
+      internalID: 7739771300597382563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2910
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742b358ebaf0a7450800000000000000
+      internalID: 6087195077356270151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2914
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86fc29df9e3dfe5c0800000000000000
+      internalID: -4183892526868803736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2907
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7343983188dc9ce80800000000000000
+      internalID: -8157763265677937609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 2911
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b23f8afaddb4afb0800000000000000
+      internalID: -4637372968080559440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 2907
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603582b08a4b245c0800000000000000
+      internalID: -4232622065940147450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 2903
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ea0bc2caab3ba0800000000000000
+      internalID: -6108100715991079292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2898
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e72d96f66e71270800000000000000
+      internalID: 8221293010979290703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 2898
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b1a64c275ecc2c0800000000000000
+      internalID: -4409897654018237681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 2903
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42967d5e41fdb3730800000000000000
+      internalID: 3980019976560404772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2652
+        y: 2906
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5045419ececff820800000000000000
+      internalID: 2954307267174154331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 2910
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c80862ce25c62420800000000000000
+      internalID: 2604986239101176009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 2913
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468de2888713fc520800000000000000
+      internalID: 2724450693333047396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2892
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0cf92dbb0b9ead0800000000000000
+      internalID: -2672410583128620896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2898
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33679c5d643901f0800000000000000
+      internalID: -1078272991469018305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2889
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d11979d2047d5f70800000000000000
+      internalID: 9177619171238285783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 2894
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97cce10fbb9e21b0800000000000000
+      internalID: -5679430835394263140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 2889
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b538c9b693bd93d90800000000000000
+      internalID: -7117416696417320101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 2886
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1263a3d991066df60800000000000000
+      internalID: 8058734246354368033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2882
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724e3e613bedf3730800000000000000
+      internalID: 3981145456383353895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 2884
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6032f32ef05838750800000000000000
+      internalID: 6306030206515618566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 2886
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc4e0b771f274980800000000000000
+      internalID: -8554817189271679779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 2889
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1adc9301ed2bce0800000000000000
+      internalID: -1390805173633441292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 2542
+        y: 2892
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66b26a8280eb8af0800000000000000
+      internalID: -392973691192691092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 2895
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a454d85c6b11ff0800000000000000
+      internalID: -67071559838905753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2876
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5573823d8a9cf02f0800000000000000
+      internalID: -1004362464946014379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2881
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d180919fa6f14cd0800000000000000
+      internalID: -2575506277957336619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2873
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c517e45bf918e5f0800000000000000
+      internalID: -727302772568418880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2879
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107e78478e821d690800000000000000
+      internalID: -7579231719035246847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 2876
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22b2aee4a3a36e10800000000000000
+      internalID: 2189773772605796907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2873
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cac239ecf0f9680800000000000000
+      internalID: -8746254571423355793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 2872
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1603f259966ab30800000000000000
+      internalID: 4298238983834460651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2869
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e1fb800d1cfdab0800000000000000
+      internalID: -4981049563604377956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 2867
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425a02965528ad870800000000000000
+      internalID: 8708416132821853476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 2866
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989cd93901c014380800000000000000
+      internalID: -8988890115919197815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2865
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f56c2443805ffb00800000000000000
+      internalID: 864498178193122801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2866
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d09a52e7c4fc8d0800000000000000
+      internalID: -2823954336656585419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 2867
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38e484cccd349c30800000000000000
+      internalID: 4365181888508520506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 2293
+        y: 2869
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725d8bd55a2bed100800000000000000
+      internalID: 134741462179435815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 2872
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b345f199c019ca950800000000000000
+      internalID: 6461699048664421435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 2873
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a712eb55a245bc0800000000000000
+      internalID: -3795362038216033670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 2875
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe3b244e82bf9860800000000000000
+      internalID: 7538940625340284667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 2405
+        y: 2878
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f11e570854547f0800000000000000
+      internalID: -629020154912497802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 2881
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8f0cf8e92446e30800000000000000
+      internalID: 4495791576806652067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2860
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87a05938db12c010800000000000000
+      internalID: 1207558265577187211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2865
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87df8023a24eec4c0800000000000000
+      internalID: -4265220927194071688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2857
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87d13f5f6c71c260800000000000000
+      internalID: 7116105704002410383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 2863
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cff5c86fcca9cd0800000000000000
+      internalID: -2550500879662842724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 2863
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98de1a673f9bc180800000000000000
+      internalID: -9093999962192160614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 2862
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d6c3f56a4c627f0800000000000000
+      internalID: -637606078384935615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 2860
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2784331986a458540800000000000000
+      internalID: 5009491973492656242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 2860
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198390054fe669580800000000000000
+      internalID: -8820740824564680559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2859
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5e790944d65cf00800000000000000
+      internalID: 1136434622231995856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 2857
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d550cb3abdf6a9c70800000000000000
+      internalID: 8978611796252034397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 2857
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845f3246bdd257a50800000000000000
+      internalID: 6518166455989826888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2857
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e2ee3a698571610800000000000000
+      internalID: 1591838397317393955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 2857
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5878e89d7bed58d00800000000000000
+      internalID: 974429775605958533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2857
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72676def0335aa090800000000000000
+      internalID: -8022508316308113881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 2859
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f57af08c12e92f0800000000000000
+      internalID: -964296127070904470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 2859
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8347fb3d0555a60800000000000000
+      internalID: 7662119211421153441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2860
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c729f5c2b816460800000000000000
+      internalID: 7233215499231984767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 2860
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741c75a1f0c9e3cd0800000000000000
+      internalID: -2576450348128943801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_96
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 2862
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4039c4531266b1530800000000000000
+      internalID: 3826764601195533060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2863
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acad472eeabc121c0800000000000000
+      internalID: -4530115798173951286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_98
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2843
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63997863c1754ed10800000000000000
+      internalID: 2153942300475496758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2848
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b5a94d46b0cc0b0800000000000000
+      internalID: -5707174100093740190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_100
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2840
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202f2b66ad63b1de0800000000000000
+      internalID: -1361434150695669246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2826
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5fcdca4ab9efbd0800000000000000
+      internalID: -2594465203741723166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_102
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2831
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba299234755f32630800000000000000
+      internalID: 3901231457370739371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2823
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53935ca4f4e140130800000000000000
+      internalID: 3531981333671000373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_104
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2810
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d768e9d78b6a9c0800000000000000
+      internalID: -3916239976282030828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2815
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312736f2e2aa42870800000000000000
+      internalID: 8657231499053199891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_106
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2807
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54310ad6014207e20800000000000000
+      internalID: 3346214176113562437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2793
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81ac72cd11a4d200800000000000000
+      internalID: 203965032327586189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_108
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2797
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93355ee2c985df6a0800000000000000
+      internalID: -6413872866480794823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2790
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446ea68a78ba3aaf0800000000000000
+      internalID: -386276543889217980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_110
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2777
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c47f2c7cddf3880800000000000000
+      internalID: -8628934510979363819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2781
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7b07e6d97fb57c0800000000000000
+      internalID: -4081396381746415701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_112
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2774
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d073921dfa01fd0800000000000000
+      internalID: -2373203690749752054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_113
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2759
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ddd1ff05c582570800000000000000
+      internalID: 8442099004453281091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_114
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2765
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ef551e03de63150800000000000000
+      internalID: 5852125560009260697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_115
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 2756
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84544f96df105cf30800000000000000
+      internalID: 4595081182717429064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_116
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2743
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16a67ee63215c5a0800000000000000
+      internalID: -6501770459901155811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_117
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2747
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8471a01382adfb60800000000000000
+      internalID: 7781554414969517198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_118
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 2554
+        width: 179
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9896237b6df3ae830800000000000000
+      internalID: 4101160602103343497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_119
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 2334
+        width: 441
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cdd2dcfe10f0130800000000000000
+      internalID: 3535046361960275004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_120
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2727
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8158cd02a2cd954b0800000000000000
+      internalID: -5451083800457214696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_121
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2731
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c09c766effd4b970800000000000000
+      internalID: 8769880658131325125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_122
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2709
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c54f03fc3be75e0800000000000000
+      internalID: -1909891489497588616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_123
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2715
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818e05dd3b04af700800000000000000
+      internalID: 574843043699550232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_124
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2693
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150ffe580b45d70c0800000000000000
+      internalID: -4576408529200484271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_125
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2698
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972641b2ff2c5e750800000000000000
+      internalID: 6333682852161675897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_126
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2676
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c2f58b6c90f4d00800000000000000
+      internalID: 958995994754624605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_127
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2681
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9816b25f714075b80800000000000000
+      internalID: -8406245678519721591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_128
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2659
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc9accb05940f7d0800000000000000
+      internalID: -2886726750030881598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_129
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2664
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610e86e80416f8220800000000000000
+      internalID: 2490316048854212630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_130
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2643
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0b58a79d9a57330800000000000000
+      internalID: 3708056619738050797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_131
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2648
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b9006ad7fa06ec0800000000000000
+      internalID: -3575665149941343461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_132
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2627
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa5a7681c65b6740800000000000000
+      internalID: 5146302388385766053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_133
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2632
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ca16d376917b60800000000000000
+      internalID: 7742134658684078309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_134
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2610
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4711e155c1d43fd90800000000000000
+      internalID: -7065218606331719308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_135
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2614
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aab2eeab7123e0f0800000000000000
+      internalID: -1088989869794739544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_136
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2594
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a2d8ca3009c19b0800000000000000
+      internalID: -5108049531890750967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_137
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2598
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b0b288f881ea70800000000000000
+      internalID: 8854508943312990280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_138
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2576
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ce2f731d68e520800000000000000
+      internalID: 2731553104505784549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_139
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2582
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b64ca51414fbbe30800000000000000
+      internalID: 4520475018096559794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_140
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2560
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f7d5331f0dab240800000000000000
+      internalID: 4808385286538886993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_141
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2564
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bae4b1ab3bbb490800000000000000
+      internalID: -7729386723547895021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_142
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2544
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd625007bbc20d460800000000000000
+      internalID: 7264355382498502364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_143
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2548
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b333cb8d721af0b80800000000000000
+      internalID: -8426339185274899653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_144
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2526
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14adde7a8c8537cc0800000000000000
+      internalID: -3714527648816440767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_145
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2346
+        width: 179
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8bffdc3b5af5e70800000000000000
+      internalID: 9106179163240249583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_146
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2510
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07358a99ce14ba50800000000000000
+      internalID: 6535882810451113743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_147
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2492
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33865a8a9f35e8d00800000000000000
+      internalID: 976810500927350835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_148
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2476
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f91d39bc5480f90800000000000000
+      internalID: -6987258081204658347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_149
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2459
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8f2ff085bb83790800000000000000
+      internalID: -7550078788387538734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_150
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2443
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38f6e81c1b500430800000000000000
+      internalID: 3747095066207254590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_151
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2427
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c5b183cdfc8020800000000000000
+      internalID: 2345528522089808078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_152
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2410
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc02ea1b7cf3ff050800000000000000
+      internalID: 5836453769007472845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_153
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2393
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec87e8ce0643ded00800000000000000
+      internalID: 1003515882863753422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_154
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 2390
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33ca757cee5d3470800000000000000
+      internalID: 8375955251655263038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_155
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 2393
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494d37b8502efc230800000000000000
+      internalID: 3661393535517840532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_156
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2377
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68f83f30dda8b5f0800000000000000
+      internalID: -740651028776945555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_157
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2359
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c537f40311bea63b0800000000000000
+      internalID: -5518339934331636900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_158
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2343
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f05f4606a36c2ff0800000000000000
+      internalID: -59563130341076745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_159
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2327
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1768286d1b9864810800000000000000
+      internalID: 1749236902181111409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_160
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2309
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6242f47ec7a66c0e0800000000000000
+      internalID: -2249993879135771610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_161
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2293
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248823e5468969bd0800000000000000
+      internalID: -2623742176052213694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_162
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2277
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e994dee19ccb53a0800000000000000
+      internalID: -6675517095497393696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_163
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2260
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f013f767548b95f70800000000000000
+      internalID: 9176568324224397583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_164
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2243
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09161274ae2e00a00800000000000000
+      internalID: 720825436222874000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_165
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2226
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30e70ee1bfa9cd70800000000000000
+      internalID: 9063968903797399610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_166
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2210
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6e58e125503c9e0800000000000000
+      internalID: -1602431192156215601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_167
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2194
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848883f0193101f10800000000000000
+      internalID: 2238310528549685320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_168
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1975
+        width: 177
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da98101dcaf40d6b0800000000000000
+      internalID: -5273627559991342675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_169
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 134
+        height: 1072
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf301316edb66a2a0800000000000000
+      internalID: -6726570390573743108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chinatown_props_spritesheet_170
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 1528
+        height: 969
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e08440f9a2421500800000000000000
+      internalID: 365427817418359014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
