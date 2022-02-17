@@ -105,11 +105,23 @@ public class movingCube : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (moveDirection == spawner.MoveDirection.X2)
         {
+            if (Vector3.Distance(this.transform.position, GameObject.Find("SpawnerRight").transform.position) > 15)
+            {
+                moveDirection = spawner.MoveDirection.X;
+            }
             transform.position -= transform.forward * Time.deltaTime * moveSpeed;
         }
         else
-            transform.position += transform.forward * Time.deltaTime * moveSpeed ;
+        {
+
+            if (Vector3.Distance(this.transform.position, GameObject.Find("Spawner").transform.position) > 15)
+            {
+                moveDirection = spawner.MoveDirection.X2;
+            }
+            transform.position += transform.forward * Time.deltaTime * moveSpeed;
+        }
     }
 }

@@ -13,9 +13,13 @@ public class temperature : MonoBehaviour
     [SerializeField] Sprite four;
     [SerializeField] GameObject TARGETIMAGE;
 
+    [SerializeField] GameObject lava;
+
     [SerializeField] Image health;
 
-    [SerializeField] Transform Temp;
+    [SerializeField] Image Temp;
+
+    Renderer lavaMat;
 
     float temperaturePosition;
     [SerializeField] float temperatuerSize = 0.1f;
@@ -23,7 +27,7 @@ public class temperature : MonoBehaviour
     float hookProgress;
     float hookPullVelocity;
     [SerializeField] float TemperatureGravityPower = 0.005f;
-    [SerializeField] float hookProgressDegradtionPower = 0.1f;
+    [SerializeField] float DegredationPower = 0.1f;
 
     [SerializeField] Transform target;
 
@@ -45,6 +49,7 @@ public class temperature : MonoBehaviour
         float distance = Vector3.Distance(top.position, bot.position);
         ls.y = (distance / ySize * temperatuerSize);
         Temp.localScale = ls;*/
+        lavaMat = lava.GetComponent<Renderer>();
     }
 
     // Update is called once per frame
@@ -52,22 +57,8 @@ public class temperature : MonoBehaviour
     {
         Debug.Log(progress);
         progressCheck();
-        if(targetPosition < 0.25f)
-        {
-            TARGETIMAGE.GetComponent<UnityEngine.UI.Image>().overrideSprite = one;
-        }
-        if (targetPosition > 0.25f && targetPosition < 0.5f)
-        {
-            TARGETIMAGE.GetComponent<UnityEngine.UI.Image>().overrideSprite = two;
-        }
-        if (targetPosition > 0.5f && targetPosition < 0.75f)
-        {
-            TARGETIMAGE.GetComponent<UnityEngine.UI.Image>().overrideSprite = three;
-        }
-        if (targetPosition > 0.75f && targetPosition < 1f)
-        {
-            TARGETIMAGE.GetComponent<UnityEngine.UI.Image>().overrideSprite = four;
-        }
+        
+
 
 
         targetTimer -= Time.deltaTime;
@@ -88,7 +79,13 @@ public class temperature : MonoBehaviour
     {
         temperaturePosition += hookPullVelocity;
         temperaturePosition = Mathf.Clamp(temperaturePosition, temperatuerSize/2, 1 - temperatuerSize/2 );
-        Temp.position = Vector3.Lerp(bot.position, top.position, temperaturePosition);
+        Temp.fillAmount = temperaturePosition;
+
+        Temp.color = Color.Lerp(Color.blue,Color.red, Temp.fillAmount);
+
+        lavaMat.material.SetColor("_BaseColor",Temp.color);
+        
+        
     }
     public void highCool()
     {
@@ -120,7 +117,7 @@ public class temperature : MonoBehaviour
         }
         else
         {
-            progress -= hookProgressDegradtionPower * Time.deltaTime;
+            progress -= DegredationPower * Time.deltaTime;
         }
         progress = Mathf.Clamp(progress, 0f, 1f);
 
