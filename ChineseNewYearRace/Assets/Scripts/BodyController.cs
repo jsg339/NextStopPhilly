@@ -15,14 +15,19 @@ public class BodyController : MonoBehaviour
     private float heightTimer;
     [SerializeField]
     private float maxHeight = 1f;
+    [SerializeField]
+    private float minHeight = -1f;
     private bool reachedMax;
     private float currentHeight;
     private float originalTimer;
+
     void Start()
     {
         reachedMax = false;
         originalTimer = heightTimer;
         currentHeight = this.GetComponent<SpriteShapeController>().spline.GetPosition(1).y;
+        maxHeight = 1f;
+        minHeight = -1f;
         //Strech(gameObject, startPosition.transform.position, endPosition.transform.position, mirrorZ);
     }
 
@@ -46,10 +51,12 @@ public class BodyController : MonoBehaviour
         if(currentHeight >= maxHeight)
         {
             reachedMax = true;
+            maxHeight = this.transform.GetChild(0).localPosition.y;
         }
-        else if(currentHeight <= -maxHeight)
+        else if(currentHeight <= minHeight)
         {
             reachedMax = false;
+            minHeight = this.transform.GetChild(0).localPosition.y - 1f;
         }
 
         heightTimer -= Time.deltaTime;

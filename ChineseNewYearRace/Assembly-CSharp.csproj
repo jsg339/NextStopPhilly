@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\BodyController.cs" />
     <Compile Include="Assets\Scripts\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\CurtainManager.cs" />
+    <Compile Include="Assets\Scripts\VideoManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

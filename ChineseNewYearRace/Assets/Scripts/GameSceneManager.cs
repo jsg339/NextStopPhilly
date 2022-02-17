@@ -19,7 +19,7 @@ public class GameSceneManager : MonoBehaviour
 
     public void restart()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void nextScene()
