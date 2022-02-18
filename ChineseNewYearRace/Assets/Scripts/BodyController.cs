@@ -17,6 +17,8 @@ public class BodyController : MonoBehaviour
     private float maxHeight = 1f;
     [SerializeField]
     private float minHeight = -1f;
+    [SerializeField]
+    private float bodySpeed;
     private bool reachedMax;
     private float currentHeight;
     private float originalTimer;
@@ -43,9 +45,9 @@ public class BodyController : MonoBehaviour
             Vector3 newVector = new Vector3(spline.GetPosition(1).x, currentHeight, spline.GetPosition(1).z);
             spline.SetPosition(1, newVector);
             if (reachedMax)
-                currentHeight -= 0.1f;
+                currentHeight -= bodySpeed;
             else
-                currentHeight += 0.1f;
+                currentHeight += bodySpeed;
             heightTimer = originalTimer;
         }
         if(currentHeight >= maxHeight)
