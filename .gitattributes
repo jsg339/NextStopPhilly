@@ -3,3 +3,4 @@
 Art[[:space:]]Museum[[:space:]]Mix-up filter=lfs diff=lfs merge=lfs -text
 BellGame filter=lfs diff=lfs merge=lfs -text
 ReadingTerminal filter=lfs diff=lfs merge=lfs -text
+TerminalGame filter=lfs diff=lfs merge=lfs -text
