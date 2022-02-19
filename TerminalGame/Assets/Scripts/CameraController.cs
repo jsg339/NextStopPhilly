@@ -10,13 +10,16 @@ public class CameraController : MonoBehaviour
     float transitionSpeed;
 
     Transform currentView;
+    bool check = true;
 
+    int counter = 0;
     void Start()
     {
         
     }
     private void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             
@@ -38,6 +41,7 @@ public class CameraController : MonoBehaviour
             currentView = views[6];
             StartCoroutine(ExecuteAfterTime(2, views[7])); ;
         }
+        */
     }
 
     // Update is called once per frame
@@ -57,12 +61,42 @@ public class CameraController : MonoBehaviour
         }
     }
 
+
+    public void loop()
+    {
+        if (check && counter == 0)
+        {
+
+            currentView = views[0];
+            StartCoroutine(ExecuteAfterTime(1, views[1]));
+            counter++;
+        }
+        if (check && counter == 1)
+        {
+            currentView = views[2];
+            StartCoroutine(ExecuteAfterTime(1, views[3]));
+            counter++;
+        }
+        if (check && counter == 2)
+        {
+            currentView = views[4];
+            StartCoroutine(ExecuteAfterTime(1, views[5]));
+            counter++;
+        }
+        if (check && counter == 3)
+        {
+            currentView = views[6];
+            StartCoroutine(ExecuteAfterTime(1, views[7]));
+
+            counter = 0;
+        }
+    }
     IEnumerator ExecuteAfterTime(float time,Transform vector)
     {
-        
+        check = false;
         yield return new WaitForSeconds(time);
         currentView = vector;
-
+        check = true;
 
     }
 }

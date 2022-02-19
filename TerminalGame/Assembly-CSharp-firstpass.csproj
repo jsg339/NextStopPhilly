@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7753CF70-8AD0-1547-A145-49158882A41B}</ProjectGuid>
+    <ProjectGuid>{41B6F9F3-C53F-EC93-6C3D-50255EB6F682}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -716,11 +716,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="LeapMotion.LeapCSharp.csproj">
-      <Project>{257FB95B-4BC5-8CE7-27E2-407598B989EC}</Project>
+      <Project>{66EDE47C-24BA-34CE-EB8B-3F2700D28418}</Project>
       <Name>LeapMotion.LeapCSharp</Name>
     </ProjectReference>
     <ProjectReference Include="LeapMotion.csproj">
-      <Project>{F9589474-9DD2-A12B-A9FC-018F09B57C3C}</Project>
+      <Project>{073412AF-74AD-C0D0-4215-C837F5904047}</Project>
       <Name>LeapMotion</Name>
     </ProjectReference>
   </ItemGroup>

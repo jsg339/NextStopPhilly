@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{257FB95B-4BC5-8CE7-27E2-407598B989EC}</ProjectGuid>
+    <ProjectGuid>{66EDE47C-24BA-34CE-EB8B-3F2700D28418}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>LeapMotion.LeapCSharp</AssemblyName>

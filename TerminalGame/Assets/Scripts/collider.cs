@@ -8,7 +8,14 @@ public class collider : MonoBehaviour
     [SerializeField]
     GameObject[] arr;
     // Start is called before the first frame update
-
+    [SerializeField]
+    GameObject cam;
+    [SerializeField]
+    GameObject list;
+    [SerializeField]
+    GameObject icon;
+    [SerializeField]
+    bool left;
    
     
     void Start()
@@ -28,8 +35,8 @@ public class collider : MonoBehaviour
             if (GameObject.Find("Engine").GetComponent<engineScript>().chosen != null)
             {
                 if (!String.Equals(other.gameObject.name, GameObject.Find("Engine").GetComponent<engineScript>().chosen.gameObject.name)
-                    || !String.Equals(other.gameObject.name, GameObject.Find("Engine").GetComponent<engineScript>().chosen1.gameObject.name)
-                    || !String.Equals(other.gameObject.name, GameObject.Find("Engine").GetComponent<engineScript>().chosen2.gameObject.name ))
+                    && !String.Equals(other.gameObject.name, GameObject.Find("Engine").GetComponent<engineScript>().chosen1.gameObject.name)
+                    && !String.Equals(other.gameObject.name, GameObject.Find("Engine").GetComponent<engineScript>().chosen2.gameObject.name ))
                 {
                     GameObject.Find("Engine").GetComponent<engineScript>().Health -= 1;
 
@@ -37,6 +44,13 @@ public class collider : MonoBehaviour
             }
             Destroy(other.gameObject);      
         }
+
+        if (other.gameObject.CompareTag("next"))
+        {
+            cam.GetComponent<CameraController>().loop();
+        }
+
+     
         /*
         if (other.gameObject.CompareTag("food"))
         {
@@ -55,5 +69,24 @@ public class collider : MonoBehaviour
         }*/
     }
 
-  
+    private void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.CompareTag("test") && left)
+        {
+            list.SetActive(true);
+            icon.SetActive(false);
+        }
+
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("test") && left)
+        {
+            list.SetActive(false);
+            icon.SetActive(true);
+        }
+    }
+
+
+
 }
