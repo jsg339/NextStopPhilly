@@ -10,8 +10,6 @@ public class BodyController : MonoBehaviour
     [SerializeField]
     private GameObject endPosition;
     [SerializeField]
-    private bool mirrorZ = true;
-    [SerializeField]
     private float heightTimer;
     [SerializeField]
     private float maxHeight = 1f;

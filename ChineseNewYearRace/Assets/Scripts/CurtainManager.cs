@@ -25,9 +25,7 @@ public class CurtainManager : MonoBehaviour
     {
         if (collision.transform.tag.Equals("Player"))
         {
-            print("Lose!");
-
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            collision.transform.parent.GetComponent<LiveSystem>().removeLive();
         }
     }
 
@@ -35,9 +33,7 @@ public class CurtainManager : MonoBehaviour
     {
         if (collision.transform.tag.Equals("Player"))
         {
-            print("Lose!");
-
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            collision.transform.parent.GetComponent<LiveSystem>().removeLive();
         }
     }
 }

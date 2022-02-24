@@ -5,7 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class BellManager : CurtainManager
 {
-   
+    [SerializeField]
+    private float rotationSpeed;
+
+    private void FixedUpdate()
+    {
+        this.transform.Rotate(0, rotationSpeed*Time.deltaTime, 0);
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.transform.tag.Equals("Player"))
