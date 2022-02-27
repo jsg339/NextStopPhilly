@@ -66,7 +66,7 @@ public class LiveSystem : MonoBehaviour
             {
                 print("Lose!");
 
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                StartCoroutine(loseAnimation());
             }
             StartCoroutine(resetInvulnerability());
             startShake();
@@ -95,5 +95,13 @@ public class LiveSystem : MonoBehaviour
     private void startShake()
     {
         shakeDuration = shakeLength;
+    }
+
+    IEnumerator loseAnimation()
+    {
+        this.transform.GetChild(0).GetComponent<FlyManager>().enabled = false;
+        this.transform.GetChild(1).GetComponent<FlyManager>().enabled = false;
+        yield return new WaitForSecondsRealtime(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }

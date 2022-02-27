@@ -9,9 +9,9 @@ public class PuzzleManager : MonoBehaviour
     [SerializeField]
     private List<GameObject> worldPieces;
     [SerializeField]
-    private List<Image> canvasPieces;
+    private List<GameObject> canvasPieces;
     [SerializeField]
-    private Image fullPiece;
+    private GameObject fullPiece;
     [SerializeField]
     private GameObject myCamera;
 
@@ -30,7 +30,7 @@ public class PuzzleManager : MonoBehaviour
         {
             this.transform.Find("PiecePart1").gameObject.SetActive(false);
 
-            foreach (Image pieces in canvasPieces)
+            foreach (GameObject pieces in canvasPieces)
             {
                 pieces.gameObject.SetActive(false);
             }

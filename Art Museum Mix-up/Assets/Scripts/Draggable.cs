@@ -51,12 +51,18 @@ public class Draggable : MonoBehaviour
                         this.GetComponent<Rigidbody2D>().MovePosition(curPosition);
                         */
                     }
-                    else if (touch.phase == TouchPhase.Ended)
+                    else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
                     {
                         up();                     
                        // this.GetComponent<Rigidbody2D>().velocity = (curScreenPoint - screenPoint) * speed;
                     }
-                }  
+                    moving = true;
+                } 
+                if(!GetComponent<Collider2D>().OverlapPoint(wp) && moving)
+                {
+                    up();
+                    moving = false;
+                }
             }
         }
     }
@@ -80,6 +86,10 @@ public class Draggable : MonoBehaviour
 
     public void up()
     {
+        curScreenPoint = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+
+        print(curScreenPoint);
+
         this.GetComponent<Rigidbody2D>().velocity = (curScreenPoint - screenPoint) * speed;
     }
 }

@@ -49,6 +49,10 @@ public class SceneSetup : MonoBehaviour
 
     }
 
+    public List<GameObject> getCanvasObjects()
+    {
+        return canvasObjects;
+    }
     // Update is called once per frame
     void Update()
     {

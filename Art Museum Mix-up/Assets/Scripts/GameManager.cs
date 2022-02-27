@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         {
             int count = 0;
 
-            foreach (Transform child in transform)
+            foreach (GameObject child in this.GetComponent<SceneSetup>().getCanvasObjects())
             {
                 if (child.gameObject.tag.Equals("Canvas") && child.gameObject.GetComponent<PuzzleManager>().checkCompleted())
                 {
