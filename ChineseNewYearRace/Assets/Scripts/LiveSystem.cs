@@ -56,7 +56,7 @@ public class LiveSystem : MonoBehaviour
 
     public void removeLive()
     {
-        if (!invincible)
+        if (!invincible && lives > 0)
         {
             invincible = true;
             lives--;
