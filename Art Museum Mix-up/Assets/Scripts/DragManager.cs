@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class DragManager : MonoBehaviour
 {
+    private Vector3 currentTouchPos;
 
     // Start is called before the first frame update
     void Start()
@@ -61,5 +62,19 @@ public class DragManager : MonoBehaviour
                 gameObject.GetComponent<Draggable>().drag();
             }
         }
+    }
+
+    public void setTouchPos(string args)
+    {
+        string[] coord = args.Split('|');
+
+        float x = float.Parse(coord[0]);
+        float y = float.Parse(coord[1]);
+
+        currentTouchPos = new Vector3(x, y, 0);
+    }    
+    public Vector3 getTouchPos()
+    {
+        return currentTouchPos;
     }
 }

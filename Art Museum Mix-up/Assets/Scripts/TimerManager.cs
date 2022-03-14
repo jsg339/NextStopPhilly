@@ -22,7 +22,7 @@ public class TimerManager : MonoBehaviour
     {
         if (timer <= 0)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
         else
         {

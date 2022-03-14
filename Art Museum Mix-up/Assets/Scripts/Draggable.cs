@@ -7,11 +7,10 @@ public class Draggable : MonoBehaviour
     [SerializeField]
     private float speed;
 
-    private Vector3 offset;
+    private Vector2 offset;
     private Vector2 screenPoint;
     private Vector2 curScreenPoint;
-    private bool moving;
-    private float originalSpeed;
+    private Vector2 originalPos;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +21,7 @@ public class Draggable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.touchCount > 0)
+        /*if(Input.touchCount > 0)
         {
             for(int i = 0; i <= Input.touchCount - 1; i++)
             {
@@ -35,21 +34,21 @@ public class Draggable : MonoBehaviour
                     {
 
                         down();
-                        /*screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
+                        screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
 
-                        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x, touch.position.y));*/
+                        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector2(touch.position.x, touch.position.y));
                     }
                     else if (touch.phase == TouchPhase.Moved)
                     {
 
                         drag();
-                        /*
+                        
                         curScreenPoint = new Vector2(touch.position.x, touch.position.y);
 
                         Vector2 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
 
                         this.GetComponent<Rigidbody2D>().MovePosition(curPosition);
-                        */
+                        
                     }
                     else if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
                     {
@@ -64,32 +63,40 @@ public class Draggable : MonoBehaviour
                     moving = false;
                 }
             }
-        }
+        }*/
     }
-
+    private void OnMouseDown()
+    {
+        down();
+    }
+    private void OnMouseDrag()
+    {
+        drag();
+    }
+    private void OnMouseUp()
+    {
+        up();
+    }
     public void down()
     {
-        screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
-
+        screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.localPosition);
+        originalPos = gameObject.transform.localPosition;//GameObject.Find("DragManager").GetComponent<DragManager>().getTouchPos();
         offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
 
     }
 
     public void drag()
     {
-        curScreenPoint = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+        curScreenPoint = Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
  
-        Vector2 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
+        Vector2 curPosition = curScreenPoint + offset;
 
         this.GetComponent<Rigidbody2D>().MovePosition(curPosition);
     }
 
     public void up()
     {
-        curScreenPoint = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-
-        print(curScreenPoint);
-
-        this.GetComponent<Rigidbody2D>().velocity = (curScreenPoint - screenPoint) * speed;
+        curScreenPoint = gameObject.transform.localPosition;//GameObject.Find("DragManager").GetComponent<DragManager>().getTouchPos();
+        this.GetComponent<Rigidbody2D>().velocity = (curScreenPoint - originalPos) * speed;
     }
 }

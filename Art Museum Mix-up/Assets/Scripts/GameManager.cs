@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 1)
+        if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             int count = 0;
 
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
             if (count == numPaintings)
             {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(3);
             }
         }
     }
@@ -40,5 +40,9 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
+    }
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(2);
     }
 }

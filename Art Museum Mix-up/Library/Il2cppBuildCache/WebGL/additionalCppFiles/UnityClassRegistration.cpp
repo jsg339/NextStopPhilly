@@ -33,8 +33,17 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_TextRendering();
 	RegisterModule_TextRendering();
 
+	void RegisterModule_TLS();
+	RegisterModule_TLS();
+
 	void RegisterModule_UI();
 	RegisterModule_UI();
+
+	void RegisterModule_UnityWebRequest();
+	RegisterModule_UnityWebRequest();
+
+	void RegisterModule_Video();
+	RegisterModule_Video();
 
 	void RegisterModule_WebGL();
 	RegisterModule_WebGL();
@@ -129,7 +138,7 @@ class Skybox;
 class SortingGroup; 
 class StreamingController; 
 class Terrain; 
-class VideoPlayer; 
+class VideoPlayer; template <> void RegisterUnityClass<VideoPlayer>(const char*);
 class VisualEffect; 
 class WindZone; 
 namespace UI { class CanvasRenderer; } template <> void RegisterUnityClass<UI::CanvasRenderer>(const char*);
@@ -278,7 +287,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 71 non stripped classes
+	//Total: 72 non stripped classes
 	//0. Animator
 	RegisterUnityClass<Animator>("Animation");
 	//1. AnimatorController
@@ -421,5 +430,7 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<UI::CanvasGroup>("UI");
 	//70. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
+	//71. VideoPlayer
+	RegisterUnityClass<VideoPlayer>("Video");
 
 }
