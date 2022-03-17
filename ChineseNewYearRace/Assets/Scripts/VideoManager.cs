@@ -15,7 +15,14 @@ public class VideoManager : MonoBehaviour
     void Update()
     {
         VideoPlayer vp = this.GetComponent<VideoPlayer>();
-        if(SceneManager.GetActiveScene().buildIndex <= 2)
+        if(SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            if (vp.isPlaying && vp.time >= 37f)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
+        else if (SceneManager.GetActiveScene().buildIndex <= 2)
         {
             if (vp.time > 8.4f && vp.time < 9)
             {
@@ -23,7 +30,7 @@ public class VideoManager : MonoBehaviour
                 vp.Play();
             }
         }
-        else
+        else 
         {
             if (vp.time > 4f && vp.time < 5)
             {
