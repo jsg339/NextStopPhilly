@@ -6,9 +6,6 @@
     <title>Unity WebGL Player | Art Museum Mix-up</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-	<script src="touch-emulator.js"></script>
-    <script> TouchEmulator(); </script>
-	<script src="https://hammerjs.github.io/dist/hammer.js"></script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -69,14 +66,13 @@
         canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
-	  var myGameInstance = null;
+
       var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
         createUnityInstance(canvas, config, (progress) => {
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
-		  myGameInstance = unityInstance;
           loadingBar.style.display = "none";
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
@@ -87,34 +83,5 @@
       };
       document.body.appendChild(script);
     </script>
-	<script>
-		var element = document.getElementById('unity-container');
-		var hammer = new Hammer.Manager(element);
-		var START_X = Math.round((window.innerWidth - element.offsetWidth) / 2);
-		var START_Y = Math.round((window.innerHeight - element.offsetHeight) / 2);
-		hammer.add(new Hammer.Pan({ threshold: 0, pointers: 0 }));
-		hammer.add(new Hammer.Swipe()).recognizeWith(hammer.get('pan'));
-		hammer.on("panstart", function(event){
-									myGameInstance.SendMessage("DragManager", "down");
-									var x = START_X + event.deltaX;
-									var y = START_Y + event.deltaY;
-									var pos = "" + x + "|" + y;
-									console.log(pos);
-									myGameInstance.SendMessage("DragManager", "setTouchPos", pos);
-								});
-	 
-		hammer.on("panmove", function(event){
-									myGameInstance.SendMessage("DragManager", "drag");
-								});
-								
-		hammer.on("panend pancancel", function(event){	
-									myGameInstance.SendMessage("DragManager", "up");
-									var x = START_X + event.deltaX;
-									var y = START_Y + event.deltaY;
-									var pos = "" + x + "|" + y;
-									console.log(pos);
-									myGameInstance.SendMessage("DragManager", "setTouchPos", pos);
-								});
-	</script>
   </body>
 </html>

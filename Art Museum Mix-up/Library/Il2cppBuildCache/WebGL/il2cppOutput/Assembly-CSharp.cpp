@@ -268,9 +268,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral4B41695BDFD8C22B8D4A28D45321759D252CEE55
 IL2CPP_EXTERN_C String_t* _stringLiteral4C348F7BAC9D7775F5F983C8DBB9BDC7C933E59E;
 IL2CPP_EXTERN_C String_t* _stringLiteral4E3E955F7EC4D1E664CB7FFBD23A65233A1C175F;
 IL2CPP_EXTERN_C String_t* _stringLiteral56B9D7DEF8E3DC210DBF8A0AFD4975355B5DF9E4;
+IL2CPP_EXTERN_C String_t* _stringLiteral57F34C75DEAFB013ED1F36D16D55D4FFF5E3D014;
 IL2CPP_EXTERN_C String_t* _stringLiteral69FE40C4D978A37D7C9DE81A5A9344687AEC358C;
 IL2CPP_EXTERN_C String_t* _stringLiteral6EE76E9FBCD2C33A4F5947BE4CC2EA3736B59407;
-IL2CPP_EXTERN_C String_t* _stringLiteral7060DFAC4272A55BF905D02F02EF9D07D9152C7A;
 IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
 IL2CPP_EXTERN_C String_t* _stringLiteral7989AEBB7563A02D458DEC440EA79FBC8A6BF4E6;
 IL2CPP_EXTERN_C String_t* _stringLiteral7CDF4AAD9891F781199CDF96E9F8048F8B21EE3B;
@@ -8824,7 +8824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoManager_Start_m906CC8FA1502280922D3
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisVideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86_m0A055C5D0E13C762D9E43880E36E78E7DE5A5365_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7060DFAC4272A55BF905D02F02EF9D07D9152C7A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral57F34C75DEAFB013ED1F36D16D55D4FFF5E3D014);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
@@ -8832,13 +8832,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoManager_Start_m906CC8FA1502280922D3
 		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_0;
 		L_0 = Component_GetComponent_TisVideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86_m0A055C5D0E13C762D9E43880E36E78E7DE5A5365(__this, /*hidden argument*/Component_GetComponent_TisVideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86_m0A055C5D0E13C762D9E43880E36E78E7DE5A5365_RuntimeMethod_var);
 		__this->set_vp_5(L_0);
-		// vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "pma instructions.mp4");
+		// vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "pma tutorial.mp4");
 		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_1 = __this->get_vp_5();
 		String_t* L_2;
 		L_2 = Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1(/*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
 		String_t* L_3;
-		L_3 = Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF(L_2, _stringLiteral7060DFAC4272A55BF905D02F02EF9D07D9152C7A, /*hidden argument*/NULL);
+		L_3 = Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF(L_2, _stringLiteral57F34C75DEAFB013ED1F36D16D55D4FFF5E3D014, /*hidden argument*/NULL);
 		VideoPlayer_set_url_m9C9942D6C54D50F6255A2AA1646D9F40E551BF13(L_1, L_3, /*hidden argument*/NULL);
 		// vp.Play();
 		VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * L_4 = __this->get_vp_5();
@@ -8917,6 +8917,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoManager_skipTutorial_mBED572807AE2F
 		int32_t L_1;
 		L_1 = Scene_get_buildIndex_mE32CE766EA0790E4636A351BA353A7FD71A11DA4((Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE *)(&V_0), /*hidden argument*/NULL);
 		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(((int32_t)il2cpp_codegen_add((int32_t)L_1, (int32_t)1)), /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void VideoManager::back()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoManager_back_mAF5B8B57AB76FA11814FA5AB8BF939D0376524D5 (VideoManager_t78DCC51EC0616E3D835F3E5E300741AD93820ED6 * __this, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE  V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE  L_0;
+		L_0 = SceneManager_GetActiveScene_mB9A5037FFB576B2432D0BFEF6A161B7C4C1921A4(/*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1;
+		L_1 = Scene_get_buildIndex_mE32CE766EA0790E4636A351BA353A7FD71A11DA4((Scene_t5495AD2FDC587DB2E94D9BDE2B85868BFB9A92EE *)(&V_0), /*hidden argument*/NULL);
+		SceneManager_LoadScene_m5550E6368A6D0E37DACEDA3C5E4BA331836BC3C5(((int32_t)il2cpp_codegen_subtract((int32_t)L_1, (int32_t)1)), /*hidden argument*/NULL);
 		// }
 		return;
 	}

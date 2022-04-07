@@ -14,7 +14,7 @@ public class VideoManager : MonoBehaviour
     void Start()
     {
         vp = this.GetComponent<VideoPlayer>();
-        vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "pma instructions.mp4");
+        vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "pma tutorial.mp4");
         vp.Play();
     }
 
@@ -31,4 +31,9 @@ public class VideoManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void back()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }    
 }

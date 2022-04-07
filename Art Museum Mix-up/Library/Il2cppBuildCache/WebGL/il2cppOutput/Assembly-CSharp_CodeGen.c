@@ -151,19 +151,21 @@ extern void VideoManager_Start_m906CC8FA1502280922D3B8A9BFA02E1B722342AC (void);
 extern void VideoManager_Update_mC77BE392A373A8B43F66BAAA0A51A943CB04AF14 (void);
 // 0x00000046 System.Void VideoManager::skipTutorial()
 extern void VideoManager_skipTutorial_mBED572807AE2FDBB61FEFBB861B525F04F81E48D (void);
-// 0x00000047 System.Void VideoManager::.ctor()
+// 0x00000047 System.Void VideoManager::back()
+extern void VideoManager_back_mAF5B8B57AB76FA11814FA5AB8BF939D0376524D5 (void);
+// 0x00000048 System.Void VideoManager::.ctor()
 extern void VideoManager__ctor_mB5D382779E7296662E64C9945FEC6BEA0B30E749 (void);
-// 0x00000048 System.Void WindowManager::Start()
+// 0x00000049 System.Void WindowManager::Start()
 extern void WindowManager_Start_m6A6F3DD5B27222295CEDB2C0019D1D9D47E0163C (void);
-// 0x00000049 System.Void WindowManager::Update()
+// 0x0000004A System.Void WindowManager::Update()
 extern void WindowManager_Update_m3ED0BF3C83E8AD13DDBC073EA64EA3229ABA6617 (void);
-// 0x0000004A System.Void WindowManager::show()
+// 0x0000004B System.Void WindowManager::show()
 extern void WindowManager_show_mE3D68274CC1028C21330C3C5C0EBFB05F0108145 (void);
-// 0x0000004B System.Void WindowManager::hide()
+// 0x0000004C System.Void WindowManager::hide()
 extern void WindowManager_hide_m6AEFACA3FB2848C42973151A7013C7852158681A (void);
-// 0x0000004C System.Void WindowManager::.ctor()
+// 0x0000004D System.Void WindowManager::.ctor()
 extern void WindowManager__ctor_mFA6DBF3834F7C93CF73FCD2D9BF1F7E733D6BFB4 (void);
-static Il2CppMethodPointer s_methodPointers[76] = 
+static Il2CppMethodPointer s_methodPointers[77] = 
 {
 	ArtManager_Start_m6D646F5B97A1FB5ABFE3DA52600142B6189A0FFA,
 	ArtManager_Update_mE980083A1D8FFA72BB265CF166857106094B8769,
@@ -235,6 +237,7 @@ static Il2CppMethodPointer s_methodPointers[76] =
 	VideoManager_Start_m906CC8FA1502280922D3B8A9BFA02E1B722342AC,
 	VideoManager_Update_mC77BE392A373A8B43F66BAAA0A51A943CB04AF14,
 	VideoManager_skipTutorial_mBED572807AE2FDBB61FEFBB861B525F04F81E48D,
+	VideoManager_back_mAF5B8B57AB76FA11814FA5AB8BF939D0376524D5,
 	VideoManager__ctor_mB5D382779E7296662E64C9945FEC6BEA0B30E749,
 	WindowManager_Start_m6A6F3DD5B27222295CEDB2C0019D1D9D47E0163C,
 	WindowManager_Update_m3ED0BF3C83E8AD13DDBC073EA64EA3229ABA6617,
@@ -242,7 +245,7 @@ static Il2CppMethodPointer s_methodPointers[76] =
 	WindowManager_hide_m6AEFACA3FB2848C42973151A7013C7852158681A,
 	WindowManager__ctor_mFA6DBF3834F7C93CF73FCD2D9BF1F7E733D6BFB4,
 };
-static const int32_t s_InvokerIndices[76] = 
+static const int32_t s_InvokerIndices[77] = 
 {
 	1139,
 	1139,
@@ -320,6 +323,7 @@ static const int32_t s_InvokerIndices[76] =
 	1139,
 	1139,
 	1139,
+	1139,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -338,7 +342,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	76,
+	77,
 	s_methodPointers,
 	0,
 	NULL,
