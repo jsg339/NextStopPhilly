@@ -14,6 +14,8 @@ public class PuzzleManager : MonoBehaviour
     private GameObject fullPiece;
     [SerializeField]
     private GameObject myCamera;
+    [SerializeField]
+    private AudioSource sound;
 
     private float foundPieces = 0;
     private bool isCompleted = false;
@@ -52,6 +54,7 @@ public class PuzzleManager : MonoBehaviour
                 int foundIndex = worldPieces.IndexOf(collision.transform.gameObject);
                 canvasPieces[foundIndex].gameObject.SetActive(true);
                 Destroy(collision.transform.gameObject);
+                sound.Play();
                 foundPieces++;
             }
         }

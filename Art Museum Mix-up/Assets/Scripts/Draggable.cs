@@ -65,18 +65,6 @@ public class Draggable : MonoBehaviour
             }
         }*/
     }
-    private void OnMouseDown()
-    {
-        down();
-    }
-    private void OnMouseDrag()
-    {
-        drag();
-    }
-    private void OnMouseUp()
-    {
-        up();
-    }
     public void down()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.localPosition);

@@ -1239,6 +1239,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_Play_m2AD0D39D70055A5AADCF63
 	_il2cpp_icall_func = (VideoPlayer_Play_m2AD0D39D70055A5AADCF63430D3D9CEC7DCB0516_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoPlayer::Play()");
 	_il2cpp_icall_func(__this);
 }
+// System.Void UnityEngine.Video.VideoPlayer::Stop()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_Stop_mC65F299C170F41E6823207427F782982031DE293 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, const RuntimeMethod* method)
+{
+	typedef void (*VideoPlayer_Stop_mC65F299C170F41E6823207427F782982031DE293_ftn) (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 *);
+	static VideoPlayer_Stop_mC65F299C170F41E6823207427F782982031DE293_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoPlayer_Stop_mC65F299C170F41E6823207427F782982031DE293_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoPlayer::Stop()");
+	_il2cpp_icall_func(__this);
+}
 // System.Boolean UnityEngine.Video.VideoPlayer::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VideoPlayer_get_isPlaying_m457BE1719C1CF9A9BD6D6BFB02505E9778D68D6F (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, const RuntimeMethod* method)
 {
@@ -1258,6 +1267,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t VideoPlayer_get_frame_m86205149C0DB9B
 	_il2cpp_icall_func = (VideoPlayer_get_frame_m86205149C0DB9B9A42C1177F846950B495E6882E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoPlayer::get_frame()");
 	int64_t icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
+}
+// System.Void UnityEngine.Video.VideoPlayer::set_frame(System.Int64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VideoPlayer_set_frame_mC94AD83B85EF441B374D71F332F51D2CA8BDE42A (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, int64_t ___value0, const RuntimeMethod* method)
+{
+	typedef void (*VideoPlayer_set_frame_mC94AD83B85EF441B374D71F332F51D2CA8BDE42A_ftn) (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 *, int64_t);
+	static VideoPlayer_set_frame_mC94AD83B85EF441B374D71F332F51D2CA8BDE42A_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (VideoPlayer_set_frame_mC94AD83B85EF441B374D71F332F51D2CA8BDE42A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Video.VideoPlayer::set_frame(System.Int64)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 // System.UInt64 UnityEngine.Video.VideoPlayer::get_frameCount()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t VideoPlayer_get_frameCount_mE7B49C44E393A2EC65424C29F2D6563A130D9044 (VideoPlayer_t47DCC396CBA28512CF97C6CC4F55878E8D62FE86 * __this, const RuntimeMethod* method)

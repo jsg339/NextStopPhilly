@@ -34,6 +34,8 @@ public class VideoManager : MonoBehaviour
 
     public void back()
     {
+        vp.Stop();
+        vp.frame = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }    
 }
