@@ -365,7 +365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bde7d38ee07220459f2cab641e604df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: http://localhost/result/video/pma%20instructions.mp4
+  url: pma tutorial.mp4
 --- !u!1 &1563500929
 GameObject:
   m_ObjectHideFlags: 0

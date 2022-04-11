@@ -14,7 +14,7 @@ public class VideoManager : MonoBehaviour
     void Start()
     {
         vp = this.GetComponent<VideoPlayer>();
-        vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, "pma tutorial.mp4");
+        vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, url);
         vp.Play();
     }
 

@@ -289,7 +289,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3590}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 5336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -298,8 +298,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
@@ -307,6 +305,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 328
       Script: {instanceID: 0}
     Assets/Scenes/Tutorial.unity:
     - Class: 1
