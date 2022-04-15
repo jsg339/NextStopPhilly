@@ -1597,12 +1597,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Marsden Hartley
-
-
-    This oil painting is an abstract representation
-    of a boat with sails at the harbor in Provincetown, Massachusetts. Look how the
-    shapes of these thick lines are similar to the shapes of a boat and it''s sails.'
+  m_Text: "Marsden Hartley\n\nThis oil painting is an abstract representation of
+    a boat with sails at the harbor in Provincetown, Massachusetts. Look how the
+    shapes of these thick lines are similar to the sapes of a boat and it\u2019s
+    sails."
 --- !u!222 &500839685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2071,7 +2069,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 141.4176, y: -82.67847}
+  m_AnchoredPosition: {x: 141.42, y: -76}
   m_SizeDelta: {x: 335.0219, y: 220.2513}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &645880697
@@ -2107,13 +2105,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Mikhail Larionov
-
-
-    This painting is representative of a Russian Ballet
-    from 1919. Mikhail Larionov created a ballet that included animatronics made
-    of abstract human body parts. This painting shows what those figures may have
-    looked like.'
+  m_Text: "Mikhail Larionov\n\nThis painting is representative of a Russian Ballet
+    by Mikhail Larionov and Natalia Sergeyevna Goncharova  from 1919.  \n\nPochoir
+    Printmaking: Stencils were made for each color part of the painting. Then, colors
+    were painted onto the stencil pieces and printed, in layers, onto the canvas. "
 --- !u!222 &645880698
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4289,7 +4284,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 147.6853, y: 67.713}
+  m_AnchoredPosition: {x: 147.69, y: 80.244}
   m_SizeDelta: {x: 347.555, y: 104.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470852100
@@ -4509,13 +4504,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Vasily Kandinsky
-
-
-    "Circles in a Circle," by Vasil Kadinsky is an
-    apstract painting from 1923. This painting used oil paints on canvas. Oil paint
-    is a thick paint that dries slowly, making it easys to blend colors. This painting
-    uses simple shapes, like circles and lines, to make a bigger picture.'
+  m_Text: "Vasily Kandinsky\n\n\u201CCircles in a Circle,\u201D by Vasily Kadinsky
+    is an abstract painting.\n\nThis painting used oil paints on canvas. Oil paint
+    is a thick paint that dries slowly, making it easy to blend colors. This painting
+    uses simple shapes  to make a bigger picture. "
 --- !u!222 &1532080494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4732,7 +4724,7 @@ MonoBehaviour:
 
     The artist who created this painting was
     one of the first screen printers in Philadelphia. He used the silkscreen printing
-    mediumm to create abstract compositions, like this one.'
+    medium to create abstract compositions, like this one. '
 --- !u!222 &1582283008
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5587,14 +5579,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Vincent Willem van Gogh
-
-
-    Sunflowers is one of Vincent van Gogh''s
-    most famous paintings. This painting was done using oil paints, in van Gogh''s
-    well known "post-impressionist" style. Van Gogh used many linear brush strokes
-    to paint this image, blending colors with each flick of his brush. Look how the
-    line direction creates movement and 3-D shapes.'
+  m_Text: "Vincent Willem van Gogh\n\nSunflowers is one of Vincent van Gogh\u2019s
+    most famous paintings. This painting was done using oil paints, in van Gogh\u2019s
+    well known \u201Cpost-inmpressionist\u201D style. Van Gogh used many linear brush
+    strokes to paint this image, blending colors with each flick of his brush. Look
+    how the line direction creates movement and 3-D shapes."
 --- !u!222 &1961099547
 CanvasRenderer:
   m_ObjectHideFlags: 0

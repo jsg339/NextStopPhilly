@@ -101,7 +101,7 @@ public class LiveSystem : MonoBehaviour
     {
         this.transform.GetChild(0).GetComponent<FlyManager>().enabled = false;
         this.transform.GetChild(1).GetComponent<FlyManager>().enabled = false;
-        yield return new WaitForSecondsRealtime(3f);
+        yield return new WaitForSecondsRealtime(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 }

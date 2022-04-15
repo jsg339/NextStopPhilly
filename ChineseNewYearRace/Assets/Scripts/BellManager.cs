@@ -31,7 +31,9 @@ public class BellManager : CurtainManager
     IEnumerator playSound()
     {
         winSound.Play();
-        yield return new WaitForSeconds(0.5f);
+        Time.timeScale = 0.000001f;
+        yield return new WaitForSeconds(0.000002f);
+        Time.timeScale = 1f;
         this.GetComponent<GameSceneManager>().nextScene();
     }
 }

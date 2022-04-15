@@ -366,6 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   url: pma tutorial.mp4
+  isEnd: 0
 --- !u!1 &1563500929
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,8 +504,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -346, y: 199}
-  m_SizeDelta: {x: 112.25, y: 56.76}
+  m_AnchoredPosition: {x: -343.46, y: 188.83}
+  m_SizeDelta: {x: 117.33, y: 77.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1786026617
 MonoBehaviour:
@@ -636,8 +637,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 346, y: -199}
-  m_SizeDelta: {x: 112.25, y: 56.76}
+  m_AnchoredPosition: {x: 342.61, y: -189.68}
+  m_SizeDelta: {x: 119.03, y: 75.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805446559
 MonoBehaviour:

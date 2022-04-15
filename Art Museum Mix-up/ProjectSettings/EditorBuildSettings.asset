@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ArtDemoV3.unity
     guid: e17f477a5bbe6b547a627852f49ebe2f
   - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 8ea991965dc80634a835245cfdc461c0
+  - enabled: 1
     path: Assets/Scenes/Gallery.unity
     guid: d0cc9eb7ea4186f4980009c5e2dfd777
   - enabled: 1

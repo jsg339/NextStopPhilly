@@ -22,8 +22,6 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.SpriteShapeController
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -72,39 +70,39 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 1734}
+      Script: {instanceID: 1700}
     - Class: 114
-      Script: {instanceID: 1740}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 2172}
+      Script: {instanceID: 2138}
     - Class: 114
-      Script: {instanceID: 2208}
+      Script: {instanceID: 2174}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3138}
+      Script: {instanceID: 3104}
     - Class: 114
-      Script: {instanceID: 3154}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3398}
+      Script: {instanceID: 3364}
     - Class: 114
-      Script: {instanceID: 3938}
+      Script: {instanceID: 3904}
     - Class: 114
-      Script: {instanceID: 4024}
+      Script: {instanceID: 3990}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4044}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4226}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -145,23 +143,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -200,23 +198,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -255,23 +253,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -310,23 +308,23 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1540}
+      Script: {instanceID: 1506}
     - Class: 114
-      Script: {instanceID: 2234}
+      Script: {instanceID: 2200}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2774}
     - Class: 114
-      Script: {instanceID: 3022}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 3268}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 3380}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 4078}
+      Script: {instanceID: 4044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -937,4 +935,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/DragonRace.unity
   - Assets/Scenes/WinScene.unity
   - Assets/Scenes/LossScene.unity
-  playerPath: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/ChineseNewYearRace/mac.app
+  playerPath: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/MacChinaTownBuild.app

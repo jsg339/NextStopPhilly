@@ -8,6 +8,8 @@ public class VideoManager : MonoBehaviour
 {
     [SerializeField]
     private string url;
+    [SerializeField]
+    private bool isEnd;
 
     private VideoPlayer vp;
     // Start is called before the first frame update
@@ -21,7 +23,7 @@ public class VideoManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1)
+        if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1 && !isEnd)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

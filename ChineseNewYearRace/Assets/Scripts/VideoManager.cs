@@ -17,7 +17,7 @@ public class VideoManager : MonoBehaviour
         VideoPlayer vp = this.GetComponent<VideoPlayer>();
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
-            if (vp.isPlaying && vp.time >= 37f)
+            if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
