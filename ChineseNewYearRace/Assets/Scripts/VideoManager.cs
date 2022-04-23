@@ -15,8 +15,28 @@ public class VideoManager : MonoBehaviour
     void Update()
     {
         VideoPlayer vp = this.GetComponent<VideoPlayer>();
+        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) && SceneManager.GetActiveScene().buildIndex != 4)
+        {
+            if(SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                SceneManager.LoadScene(2);
+            }
+            else if (SceneManager.GetActiveScene().buildIndex == 3)
+            {
+                SceneManager.LoadScene(2);
+            }
+            else
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+            
+        }
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            }
             if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -32,9 +52,9 @@ public class VideoManager : MonoBehaviour
         }
         else 
         {
-            if (vp.time > 4f && vp.time < 5)
+            if (vp.time > 8f && vp.time < 9)
             {
-                vp.time = 3;
+                vp.time = 7;
                 vp.Play();
             }
         }

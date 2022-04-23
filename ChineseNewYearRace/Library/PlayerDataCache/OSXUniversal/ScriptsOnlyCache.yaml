@@ -22,6 +22,8 @@ ScriptsOnlyBuild:
     - UnityEngine.U2D.SpriteShapeController
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -52,8 +54,6 @@ ScriptsOnlyBuild:
     - Class: 21
       Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -935,4 +935,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/DragonRace.unity
   - Assets/Scenes/WinScene.unity
   - Assets/Scenes/LossScene.unity
-  playerPath: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/MacChinaTownBuild.app
+  playerPath: C:/Users/Dinog/OneDrive/Documents/GitHub/NextStopPhilly/ChinaTownMax.app

@@ -23,9 +23,12 @@ public class VideoManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1 && !isEnd)
+        if (SceneManager.GetActiveScene().buildIndex != 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1 && !isEnd)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 
