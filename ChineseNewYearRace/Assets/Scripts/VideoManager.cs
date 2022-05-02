@@ -5,25 +5,24 @@ using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 public class VideoManager : MonoBehaviour
 {
+    private bool isDisabled = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        isDisabled = true;
+        StartCoroutine(Cooldown());
     }
 
     // Update is called once per frame
     void Update()
     {
         VideoPlayer vp = this.GetComponent<VideoPlayer>();
-        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) && SceneManager.GetActiveScene().buildIndex != 4)
+        if((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.S)) && !isDisabled)
         {
-            if(SceneManager.GetActiveScene().buildIndex == 4)
+            if(SceneManager.GetActiveScene().buildIndex >= 3)
             {
-                SceneManager.LoadScene(2);
-            }
-            else if (SceneManager.GetActiveScene().buildIndex == 3)
-            {
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(1);
             }
             else
             {
@@ -33,7 +32,7 @@ public class VideoManager : MonoBehaviour
         }
         if(SceneManager.GetActiveScene().buildIndex == 1)
         {
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.S) && !isDisabled)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
             }
@@ -58,5 +57,10 @@ public class VideoManager : MonoBehaviour
                 vp.Play();
             }
         }
+    }
+    IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(1);
+        isDisabled = false;
     }
 }

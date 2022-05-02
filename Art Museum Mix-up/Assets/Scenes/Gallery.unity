@@ -4601,7 +4601,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1733606248}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: RestartGame
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5735,7 +5735,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 06a988214bbbae54cbf94ca43f89e328, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 327de1fedf9e3494494df5d0cddb8e08, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -23,13 +23,25 @@ public class VideoManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if(SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            StartCoroutine(StartUp());
+        }
+        else if (SceneManager.GetActiveScene().buildIndex != 0)
         {
             if (vp.isPlaying && (ulong)vp.frame == vp.frameCount - 1 && !isEnd)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
+    }
+
+    private IEnumerator StartUp()
+    {
+        Time.timeScale = 0.000001f;
+        yield return new WaitForSeconds(0.000009f);
+        this.gameObject.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void skipTutorial()

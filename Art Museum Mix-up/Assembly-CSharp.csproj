@@ -193,6 +193,7 @@
     <Compile Include="Assets\TouchScript\Scripts\Utils\Geom\ProjectionUtils.cs" />
     <Compile Include="Assets\TouchScript\Scripts\Debugging\Loggers\IPointerLogger.cs" />
     <Compile Include="Assets\TouchScript\Scripts\Pointers\PenPointer.cs" />
+    <Compile Include="Assets\Scripts\MusicManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TouchScript\Modules\TUIO\Libraries\OSCsharp.dll" />

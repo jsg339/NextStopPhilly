@@ -21,7 +21,10 @@ public class GameSceneManager : MonoBehaviour
     {
         SceneManager.LoadScene(2);
     }
-
+    public void retry()
+    {
+        SceneManager.LoadScene(1);
+    }
     public void back()
     {
         SceneManager.LoadScene(0);
