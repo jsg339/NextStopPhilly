@@ -36,7 +36,7 @@ public class DragManager : MonoBehaviour
 
     public void down()
     {
-        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+        /*RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
         if (hit.collider != null)
         {
@@ -46,12 +46,12 @@ public class DragManager : MonoBehaviour
             {
                 gameObject.GetComponent<Draggable>().down();
             }
-        }
+        }*/
     }
 
     public void drag()
     {
-        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+        /*RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
         if (hit.collider != null)
         {
@@ -61,7 +61,7 @@ public class DragManager : MonoBehaviour
             {
                 gameObject.GetComponent<Draggable>().drag();
             }
-        }
+        }*/
     }
 
     public void setTouchPos(string args)

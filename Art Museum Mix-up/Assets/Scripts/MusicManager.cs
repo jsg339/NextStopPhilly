@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour
 {
@@ -32,6 +33,18 @@ public class MusicManager : MonoBehaviour
         {
             if (this != _instance)
                 Destroy(this.gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+            Application.Quit();
+        }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(0);
         }
     }
 }

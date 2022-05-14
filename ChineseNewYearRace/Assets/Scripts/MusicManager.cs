@@ -4,11 +4,7 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    private void Awake()
-    {
-        DontDestroyOnLoad(this);
-    }
-    /*private static MusicManager _instance;
+    private static MusicManager _instance;
 
     public static MusicManager instance
     {
@@ -37,6 +33,6 @@ public class MusicManager : MonoBehaviour
             if (this != _instance)
                 Destroy(this.gameObject);
         }
-    }*/
+    }
 }
 

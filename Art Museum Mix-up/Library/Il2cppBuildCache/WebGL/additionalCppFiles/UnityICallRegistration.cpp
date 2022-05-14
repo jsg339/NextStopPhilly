@@ -2198,10 +2198,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Video_VideoPlayer_Stop();
 		Register_UnityEngine_Video_VideoPlayer_Stop();
 
-		//System.Void UnityEngine.Video.VideoPlayer::set_frame(System.Int64)
-		void Register_UnityEngine_Video_VideoPlayer_set_frame();
-		Register_UnityEngine_Video_VideoPlayer_set_frame();
-
 		//System.Void UnityEngine.Video.VideoPlayer::set_url(System.String)
 		void Register_UnityEngine_Video_VideoPlayer_set_url();
 		Register_UnityEngine_Video_VideoPlayer_set_url();

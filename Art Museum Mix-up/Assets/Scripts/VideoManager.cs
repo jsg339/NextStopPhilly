@@ -13,7 +13,8 @@ public class VideoManager : MonoBehaviour
 
     private VideoPlayer vp;
     // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
         vp = this.GetComponent<VideoPlayer>();
         vp.url = System.IO.Path.Combine(Application.streamingAssetsPath, url);
@@ -38,6 +39,7 @@ public class VideoManager : MonoBehaviour
 
     private IEnumerator StartUp()
     {
+        vp.Play();
         Time.timeScale = 0.000001f;
         yield return new WaitForSeconds(0.000009f);
         this.gameObject.SetActive(false);
@@ -46,13 +48,13 @@ public class VideoManager : MonoBehaviour
 
     public void skipTutorial()
     {
+        vp.Stop();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void back()
     {
         vp.Stop();
-        vp.frame = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }    
 }

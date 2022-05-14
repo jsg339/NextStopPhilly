@@ -714,7 +714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c0dc5781cae4a6348b42ea6b818a3f9c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: c0dc5781cae4a6348b42ea6b818a3f9c, type: 3}
       propertyPath: m_Enabled
@@ -722,7 +722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: c0dc5781cae4a6348b42ea6b818a3f9c, type: 3}
       propertyPath: cursorSize
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22341586, guid: c0dc5781cae4a6348b42ea6b818a3f9c, type: 3}
       propertyPath: m_Enabled
@@ -8482,6 +8482,18 @@ PrefabInstance:
       propertyPath: basicEditor
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11478012, guid: 1c4dd8a13f501b04f84fe824120f70bb, type: 3}
+      propertyPath: windows7Mouse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478012, guid: 1c4dd8a13f501b04f84fe824120f70bb, type: 3}
+      propertyPath: windows8Mouse
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11478012, guid: 1c4dd8a13f501b04f84fe824120f70bb, type: 3}
+      propertyPath: universalWindowsMouse
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c4dd8a13f501b04f84fe824120f70bb, type: 3}
 --- !u!1 &1786961882
@@ -10075,7 +10087,7 @@ MonoBehaviour:
   OnStateChange:
     m_PersistentCalls:
       m_Calls: []
-  basicEditor: 1
+  basicEditor: 0
   generalProps: 0
   limitsProps: 0
   advancedProps: 0

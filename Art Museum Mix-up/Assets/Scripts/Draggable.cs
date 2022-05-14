@@ -65,21 +65,21 @@ public class Draggable : MonoBehaviour
             }
         }*/
     }
-    public void down()
+    public void down(Vector2 currentPos)
     {
-        screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.localPosition);
+        screenPoint = Camera.main.WorldToScreenPoint(currentPos);
         originalPos = gameObject.transform.localPosition;//GameObject.Find("DragManager").GetComponent<DragManager>().getTouchPos();
-        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
+        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(screenPoint);
 
     }
 
-    public void drag()
+    public void drag(Vector2 currentPos)
     {
-        curScreenPoint = Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
+        curScreenPoint = Camera.main.ScreenToWorldPoint(currentPos);
  
         Vector2 curPosition = curScreenPoint + offset;
 
-        this.GetComponent<Rigidbody2D>().MovePosition(curPosition);
+        this.GetComponent<Rigidbody2D>().MovePosition(curScreenPoint);
     }
 
     public void up()
